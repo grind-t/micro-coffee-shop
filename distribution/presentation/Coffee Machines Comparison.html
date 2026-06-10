@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>Кофейные автоматы — Сравнение</title>
+<script type="application/json" id="speaker-notes">["","","","","","","",""]</script>
+<style>
+  :root {
+    --bg: #F6F3EC;
+    --bg-card: #FFFFFF;
+    --bg-deep: #15212F;
+    --fg: #14181E;
+    --fg-muted: #6B7079;
+    --fg-faint: #ADAAA2;
+    --accent: #1E3A6B;
+    --hairline: rgba(20,24,30,0.10);
+    --hairline-strong: rgba(20,24,30,0.20);
+
+    --pad-x: 88px;
+    --pad-top: 72px;
+    --pad-bottom: 72px;
+
+    --type-eyebrow: 22px;
+    --type-model: 104px;
+    --type-tagline: 26px;
+    --type-price: 76px;
+    --type-price-cur: 24px;
+    --type-spec-label: 16px;
+    --type-spec-value: 24px;
+    --type-section: 15px;
+    --type-h1: 104px;
+    --type-h1-sub: 36px;
+    --type-overview-model: 56px;
+    --type-overview-price: 40px;
+    --type-overview-tag: 22px;
+    --type-stat-num: 44px;
+    --type-stat-label: 18px;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { background: #0a0a0a; }
+  body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-feature-settings: "tnum" 1, "kern" 1; -webkit-font-smoothing: antialiased; }
+  deck-stage { background: #0a0a0a; }
+  section {
+    background: var(--bg);
+    color: var(--fg);
+    overflow: hidden;
+  }
+  img { display: block; max-width: 100%; }
+
+  /* ---------- Title slide ---------- */
+  .title-slide {
+    padding: var(--pad-top) var(--pad-x) var(--pad-bottom);
+    display: grid;
+    grid-template-rows: 1fr auto;
+  }
+  .title-slide .corner {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: var(--fg-muted);
+    font-size: 24px;
+    letter-spacing: 0.04em;
+  }
+  .title-slide .mark {
+    color: var(--accent);
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    font-size: 24px;
+  }
+  .title-slide .hero {
+    align-self: end;
+  }
+  .title-slide .eyebrow {
+    font-size: 26px;
+    color: var(--fg-muted);
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    margin-bottom: 36px;
+  }
+  .title-slide h1 {
+    font-size: var(--type-h1);
+    line-height: 0.96;
+    font-weight: 500;
+    letter-spacing: -0.03em;
+    color: var(--fg);
+    margin-bottom: 28px;
+    max-width: 1500px;
+  }
+  .title-slide h1 em { font-style: normal; color: var(--accent); }
+  .title-slide .sub {
+    font-size: var(--type-h1-sub);
+    color: var(--fg-muted);
+    line-height: 1.32;
+    max-width: 1100px;
+    font-weight: 300;
+  }
+  .title-slide .meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    padding-top: 48px;
+    border-top: 1px solid var(--hairline);
+    margin-top: 56px;
+    color: var(--fg-muted);
+    font-size: 24px;
+    letter-spacing: 0.04em;
+  }
+  .title-slide .meta strong { color: var(--fg); font-weight: 500; }
+
+  /* ---------- Overview slide ---------- */
+  .overview {
+    padding: var(--pad-top) var(--pad-x) var(--pad-bottom);
+    display: grid;
+    grid-template-rows: auto 1fr;
+    gap: 36px;
+  }
+  .ovh {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-bottom: 1px solid var(--hairline);
+    padding-bottom: 28px;
+  }
+  .ovh h2 {
+    font-size: 56px;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+    line-height: 1;
+  }
+  .ovh .ovh-meta {
+    font-size: 22px;
+    color: var(--fg-muted);
+    letter-spacing: 0.04em;
+    text-align: right;
+  }
+  .ovh .ovh-meta strong { color: var(--accent); font-weight: 600; }
+  .ov-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 14px;
+  }
+  .ov-card {
+    background: var(--bg-card);
+    border: 1px solid var(--hairline);
+    border-radius: 4px;
+    padding: 28px 24px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+  .ov-card .ov-rank {
+    font-size: 15px;
+    color: var(--fg-faint);
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  .ov-card .ov-model {
+    font-size: var(--type-overview-model);
+    font-weight: 500;
+    letter-spacing: -0.025em;
+    line-height: 1;
+    color: var(--accent);
+  }
+  .ov-card .ov-tag {
+    font-size: 18px;
+    color: var(--fg-muted);
+    line-height: 1.3;
+    min-height: 48px;
+  }
+  .ov-card .ov-img {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 0;
+    min-height: 280px;
+  }
+  .ov-card .ov-img img {
+    max-height: 320px;
+    width: auto;
+    max-width: 100%;
+  }
+  .ov-card .ov-price {
+    font-size: var(--type-overview-price);
+    font-weight: 500;
+    letter-spacing: -0.02em;
+    color: var(--fg);
+    line-height: 1;
+    padding-top: 14px;
+    border-top: 1px solid var(--hairline);
+  }
+  .ov-card .ov-price small {
+    font-size: 18px;
+    color: var(--fg-muted);
+    font-weight: 400;
+    letter-spacing: 0.06em;
+    margin-left: 6px;
+  }
+  .ov-card .ov-mini {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    font-size: 17px;
+    color: var(--fg-muted);
+    line-height: 1.3;
+  }
+  .ov-card .ov-mini b { color: var(--fg); font-weight: 600; display: block; font-size: 22px; letter-spacing: -0.01em; }
+  .ov-card .ov-mini span { display: block; font-size: 13px; letter-spacing: 0.06em; text-transform: uppercase; }
+
+  /* ---------- Video demo slide ---------- */
+  .demo-slide {
+    padding: var(--pad-top) var(--pad-x) var(--pad-bottom);
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    row-gap: 36px;
+    height: 100%;
+  }
+  .demo-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    border-bottom: 1px solid var(--hairline);
+    padding-bottom: 22px;
+  }
+  .demo-eyebrow {
+    font-size: 24px;
+    color: var(--fg-muted);
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  .demo-title {
+    font-size: 68px;
+    font-weight: 500;
+    letter-spacing: -0.025em;
+    line-height: 1;
+    color: var(--fg);
+    text-align: right;
+  }
+  .demo-video-wrap {
+    background: #0a0d12;
+    border-radius: 6px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 0;
+    position: relative;
+  }
+  .demo-video {
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    display: block;
+    background: #0a0d12;
+  }
+  .demo-foot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 24px;
+    color: var(--fg-muted);
+    letter-spacing: 0.04em;
+  }
+
+  /* ---------- Machine spec slide ---------- */
+  .ms {
+    padding: var(--pad-top) var(--pad-x) var(--pad-bottom);
+    display: grid;
+    grid-template-columns: 660px 1fr;
+    column-gap: 80px;
+    height: 100%;
+  }
+  .ms-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .ms-left .ms-eyebrow {
+    font-size: var(--type-eyebrow);
+    color: var(--fg-muted);
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  .ms-photo {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px 0;
+    min-height: 0;
+  }
+  .ms-photo img {
+    max-height: 760px;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+  }
+  .ms-foot {
+    display: flex;
+    gap: 36px;
+    padding-top: 22px;
+    border-top: 1px solid var(--hairline);
+    color: var(--fg-muted);
+    font-size: 17px;
+  }
+  .ms-foot .ms-foot-item span {
+    display: block;
+    font-size: 13px;
+    letter-spacing: 0.10em;
+    text-transform: uppercase;
+    color: var(--fg-faint);
+    margin-bottom: 4px;
+  }
+  .ms-foot .ms-foot-item b { color: var(--fg); font-weight: 500; font-size: 20px; }
+
+  .ms-right {
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+  }
+  .ms-head {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    column-gap: 32px;
+    align-items: start;
+    padding-bottom: 18px;
+    border-bottom: 1px solid var(--hairline-strong);
+    margin-bottom: 22px;
+  }
+  .ms-model {
+    font-size: var(--type-model);
+    font-weight: 500;
+    letter-spacing: -0.04em;
+    line-height: 0.92;
+    color: var(--accent);
+  }
+  .ms-tagline {
+    font-size: var(--type-tagline);
+    color: var(--fg-muted);
+    line-height: 1.25;
+    margin-top: 12px;
+    font-weight: 300;
+    max-width: 720px;
+  }
+  .ms-price {
+    text-align: right;
+    line-height: 1;
+    white-space: nowrap;
+  }
+  .ms-price-num {
+    font-size: var(--type-price);
+    font-weight: 500;
+    letter-spacing: -0.03em;
+    color: var(--fg);
+    display: block;
+  }
+  .ms-price-cur {
+    display: block;
+    margin-top: 8px;
+    font-size: var(--type-price-cur);
+    color: var(--fg-muted);
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+
+  .ms-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 28px;
+    row-gap: 12px;
+    flex: 1;
+    align-content: start;
+  }
+  .ms-grid .spec {
+    border-top: 1px solid var(--hairline);
+    padding-top: 8px;
+  }
+  .ms-grid .spec-label {
+    font-size: var(--type-spec-label);
+    color: var(--fg-muted);
+    letter-spacing: 0.05em;
+    font-weight: 500;
+    margin-bottom: 4px;
+    line-height: 1.2;
+    text-transform: uppercase;
+  }
+  .ms-grid .spec-value {
+    font-size: var(--type-spec-value);
+    color: var(--fg);
+    line-height: 1.22;
+    font-weight: 400;
+    letter-spacing: -0.005em;
+  }
+  .ms-grid .spec-value.muted { color: var(--fg-faint); }
+  .ms-grid .spec-value strong { color: var(--accent); font-weight: 500; }
+
+  /* responsive / overflow guard */
+  .ms-photo img { object-fit: contain; }
+</style>
+</head>
+<body>
+<deck-stage width="1920" height="1080">
+
+<!-- ============= SLIDE 1: TITLE ============= -->
+<section data-label="01 Title" class="title-slide">
+  <div class="corner">
+    <span class="mark">Loyalsuns · 2026</span>
+    <span>Внутренний обзор · 6 моделей</span>
+  </div>
+  <div class="hero">
+    <div class="eyebrow">Сравнительный обзор</div>
+    <h1>Кофейные автоматы<br><em>от ¥28 000 до ¥68 000</em></h1>
+    <div class="sub">Шесть моделей самообслуживания одного производителя — от компактной MS1 до флагманской MB1 со свежим молоком. Детальные характеристики для сравнения и выбора.</div>
+    <div class="meta">
+      <span><strong>6</strong> моделей</span>
+      <span><strong>¥28 000 – ¥68 000</strong> диапазон цен</span>
+      <span><strong>30 +</strong> характеристик на модель</span>
+      <span>Цены указаны в RMB, FOB</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============= SLIDE 2: VIDEO DEMO ============= -->
+<section data-label="02 Демо" class="demo-slide">
+  <div class="demo-head">
+    <div class="demo-eyebrow">Демонстрация</div>
+  </div>
+  <div class="demo-video-wrap">
+    <video class="demo-video" controls preload="metadata" playsinline
+      poster=""
+      src="./uploads/8fa0b6b8-2553-4704-9108-0fa9019e86a1.mp4">
+      Ваш браузер не поддерживает воспроизведение видео.
+    </video>
+  </div>
+  <div class="demo-foot">
+    <span>Полный цикл выдачи напитка</span>
+    <span>Источник: производитель</span>
+  </div>
+</section>
+
+<!-- ============= SLIDE 3: MB1 ============= -->
+<section data-label="03 MB1" class="ms">
+  <div class="ms-left">
+    <div class="ms-eyebrow">01 · Флагман</div>
+    <div class="ms-photo"><img src="assets/MB1.png" alt="MB1"></div>
+    <div class="ms-foot">
+      <div class="ms-foot-item"><span>Напитков</span><b>200+</b></div>
+      <div class="ms-foot-item"><span>Сценарии</span><b>Премиум-офис, отель, аэропорт, ТЦ</b></div>
+    </div>
+  </div>
+  <div class="ms-right">
+    <div class="ms-head">
+      <div>
+        <div class="ms-model">MB1</div>
+        <div class="ms-tagline">Fresh Milk · Master Coffee — свежее молоко, двойной заварочный модуль, ледогенератор 120 кг/сутки</div>
+      </div>
+      <div class="ms-price">
+        <span class="ms-price-num">¥68 000</span>
+        <span class="ms-price-cur">RMB · FOB</span>
+      </div>
+    </div>
+    <div class="ms-grid">
+      <div class="spec"><div class="spec-label">Размеры (В×Ш×Г)</div><div class="spec-value">2100 × 1060 × 860 мм</div></div>
+      <div class="spec"><div class="spec-label">Вес</div><div class="spec-value">375 кг</div></div>
+      <div class="spec"><div class="spec-label">Макс. мощность</div><div class="spec-value">3500 Вт</div></div>
+      <div class="spec"><div class="spec-label">Энергопотребление в ожидании</div><div class="spec-value">&lt; 180 Вт</div></div>
+
+      <div class="spec"><div class="spec-label">Экран</div><div class="spec-value"><strong>32″</strong> сенсорный</div></div>
+
+      <div class="spec"><div class="spec-label">Подача воды</div><div class="spec-value">18 л × 3 + ввод водопровода</div></div>
+
+      <div class="spec"><div class="spec-label">Свежее молоко</div><div class="spec-value"><strong>10 л × 2</strong> (горяч. / холод. + пена)</div></div>
+      <div class="spec"><div class="spec-label">Холодильник для молока</div><div class="spec-value">92 л, 4 °C, постоянная темп.</div></div>
+      <div class="spec"><div class="spec-label">Ледогенератор</div><div class="spec-value"><strong>120 кг / сутки</strong></div></div>
+      <div class="spec"><div class="spec-label">Карбонатор</div><div class="spec-value muted">— нет</div></div>
+      <div class="spec"><div class="spec-label">Крем-модуль</div><div class="spec-value muted">— нет</div></div>
+      <div class="spec"><div class="spec-label">Аромо-выпуск кофе</div><div class="spec-value">Есть</div></div>
+
+      <div class="spec"><div class="spec-label">Бумажные стаканы</div><div class="spec-value">Ø 90 мм, 12 / 16 oz · 2 трубки ≈ 70–100 шт</div></div>
+      <div class="spec"><div class="spec-label">Прозрачные стаканы</div><div class="spec-value">Ø 90 / 98 мм, 16 oz · 2 трубки ≈ 100 шт</div></div>
+      <div class="spec"><div class="spec-label">Крышки</div><div class="spec-value">90–98 мм · 2 выпуска · ~100 наборов</div></div>
+      <div class="spec"><div class="spec-label">Помпы для сиропа</div><div class="spec-value">6</div></div>
+      <div class="spec"><div class="spec-label">Канистры для порошков</div><div class="spec-value">6 × 3 л</div></div>
+      <div class="spec"><div class="spec-label">Канистра для чая</div><div class="spec-value">2 × 3 л (опц. чайный модуль)</div></div>
+
+      <div class="spec"><div class="spec-label">Стол для упаковки</div><div class="spec-value">Есть</div></div>
+      <div class="spec"><div class="spec-label">Транспортировка стакана</div><div class="spec-value">Видимый вращающийся механизм</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============= SLIDE 4: MB3 ============= -->
+<section data-label="04 MB3" class="ms">
+  <div class="ms-left">
+    <div class="ms-eyebrow">02</div>
+    <div class="ms-photo"><img src="assets/MB3.png" alt="MB3"></div>
+    <div class="ms-foot">
+      <div class="ms-foot-item"><span>Напитков</span><b>200+</b></div>
+      <div class="ms-foot-item"><span>Сценарии</span><b>ТЦ, парк, университет, кинотеатр</b></div>
+    </div>
+  </div>
+  <div class="ms-right">
+    <div class="ms-head">
+      <div>
+        <div class="ms-model">MB3</div>
+        <div class="ms-tagline">Soda &amp; Fresh Tea — дуэт чая и кофе, с карбонатором и чайным экстрактором</div>
+      </div>
+      <div class="ms-price">
+        <span class="ms-price-num">¥55 000</span>
+        <span class="ms-price-cur">RMB · FOB</span>
+      </div>
+    </div>
+    <div class="ms-grid">
+      <div class="spec"><div class="spec-label">Размеры (В×Ш×Г)</div><div class="spec-value">2100 × 1060 × 860 мм</div></div>
+      <div class="spec"><div class="spec-label">Вес</div><div class="spec-value">375 кг</div></div>
+      <div class="spec"><div class="spec-label">Макс. мощность</div><div class="spec-value">3500 Вт</div></div>
+      <div class="spec"><div class="spec-label">Энергопотребление в ожидании</div><div class="spec-value">&lt; 180 Вт</div></div>
+
+      <div class="spec"><div class="spec-label">Экран</div><div class="spec-value"><strong>32″</strong> сенсорный</div></div>
+
+      <div class="spec"><div class="spec-label">Подача воды</div><div class="spec-value">18 л × 3 + ввод водопровода</div></div>
+
+      <div class="spec"><div class="spec-label">Свежее молоко</div><div class="spec-value muted">— нет</div></div>
+      <div class="spec"><div class="spec-label">Холодильник</div><div class="spec-value muted">— нет</div></div>
+      <div class="spec"><div class="spec-label">Ледогенератор</div><div class="spec-value"><strong>120 кг / сутки</strong></div></div>
+      <div class="spec"><div class="spec-label">Карбонатор</div><div class="spec-value"><strong>Есть</strong></div></div>
+      <div class="spec"><div class="spec-label">Крем-модуль</div><div class="spec-value muted">— нет</div></div>
+      <div class="spec"><div class="spec-label">Аромо-выпуск кофе</div><div class="spec-value">Есть</div></div>
+
+      <div class="spec"><div class="spec-label">Бумажные стаканы</div><div class="spec-value">Ø 90 мм, 12 / 16 oz · 2 трубки ≈ 70–100 шт</div></div>
+      <div class="spec"><div class="spec-label">Прозрачные стаканы</div><div class="spec-value">Ø 90 / 98 мм, 16 oz · 2 трубки ≈ 100 шт</div></div>
+      <div class="spec"><div class="spec-label">Крышки</div><div class="spec-value">90–98 мм · 2 выпуска · ~100 наборов</div></div>
+      <div class="spec"><div class="spec-label">Помпы для сиропа</div><div class="spec-value"><strong>8</strong></div></div>
+      <div class="spec"><div class="spec-label">Канистры для порошков</div><div class="spec-value">4 × 3 л</div></div>
+      <div class="spec"><div class="spec-label">Канистра для чая</div><div class="spec-value">2 × 3 л</div></div>
+
+      <div class="spec"><div class="spec-label">Стол для упаковки</div><div class="spec-value">Есть</div></div>
+      <div class="spec"><div class="spec-label">Транспортировка стакана</div><div class="spec-value">Видимый вращающийся механизм</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============= SLIDE 5: MA2 ============= -->
+<section data-label="05 MA2" class="ms">
+  <div class="ms-left">
+    <div class="ms-eyebrow">03</div>
+    <div class="ms-photo"><img src="assets/MA2.png" alt="MA2"></div>
+    <div class="ms-foot">
+      <div class="ms-foot-item"><span>Напитков</span><b>200+</b></div>
+      <div class="ms-foot-item"><span>Сценарии</span><b>ТЦ, кино, университет, парк, природа</b></div>
+    </div>
+  </div>
+  <div class="ms-right">
+    <div class="ms-head">
+      <div>
+        <div class="ms-model">MA2</div>
+        <div class="ms-tagline">Soda &amp; Cream Coffee Magician — карбонатор и крем-модуль, видимая зона приготовления</div>
+      </div>
+      <div class="ms-price">
+        <span class="ms-price-num">¥55 000</span>
+        <span class="ms-price-cur">RMB · FOB</span>
+      </div>
+    </div>
+    <div class="ms-grid">
+      <div class="spec"><div class="spec-label">Размеры (В×Ш×Г)</div><div class="spec-value">1950 × 1060 × 860 мм</div></div>
+      <div class="spec"><div class="spec-label">Вес</div><div class="spec-value">325 кг</div></div>
+      <div class="spec"><div class="spec-label">Макс. мощность</div><div class="spec-value">3500 Вт</div></div>
+      <div class="spec"><div class="spec-label">Энергопотребление в ожидании</div><div class="spec-value">&lt; 200 Вт</div></div>
+
+      <div class="spec"><div class="spec-label">Экран</div><div class="spec-value"><strong>32″</strong> сенсорный + рекламный</div></div>
+
+      <div class="spec"><div class="spec-label">Подача воды</div><div class="spec-value">18 л × 2 + ввод водопровода</div></div>
+
+      <div class="spec"><div class="spec-label">Свежее молоко</div><div class="spec-value muted">— нет</div></div>
+      <div class="spec"><div class="spec-label">Холодильник</div><div class="spec-value muted">— нет</div></div>
+      <div class="spec"><div class="spec-label">Ледогенератор</div><div class="spec-value"><strong>120 кг / сутки</strong></div></div>
+      <div class="spec"><div class="spec-label">Карбонатор</div><div class="spec-value"><strong>Есть</strong></div></div>
+      <div class="spec"><div class="spec-label">Крем-модуль</div><div class="spec-value"><strong>Есть</strong></div></div>
+      <div class="spec"><div class="spec-label">Аромо-выпуск кофе</div><div class="spec-value muted">— нет</div></div>
+
+      <div class="spec"><div class="spec-label">Бумажные стаканы</div><div class="spec-value">Ø 90 мм, 12 / 16 oz · 2 трубки ≈ 70–100 шт</div></div>
+      <div class="spec"><div class="spec-label">Прозрачные стаканы</div><div class="spec-value">Ø 90 / 98 мм, 16 oz · 2 трубки ≈ 100 шт</div></div>
+      <div class="spec"><div class="spec-label">Крышки</div><div class="spec-value muted">— нет отдельной системы</div></div>
+      <div class="spec"><div class="spec-label">Помпы для сиропа</div><div class="spec-value"><strong>10</strong></div></div>
+      <div class="spec"><div class="spec-label">Канистры для порошков</div><div class="spec-value">6 × 3 л + 1 топпинг</div></div>
+      <div class="spec"><div class="spec-label">Канистра для чая</div><div class="spec-value muted">— нет</div></div>
+
+      <div class="spec"><div class="spec-label">Стол для упаковки</div><div class="spec-value muted">— нет</div></div>
+      <div class="spec"><div class="spec-label">Транспортировка стакана</div><div class="spec-value">Видимый линейный механизм</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============= SLIDE 6: MR2 ============= -->
+<section data-label="06 MR2" class="ms">
+  <div class="ms-left">
+    <div class="ms-eyebrow">04</div>
+    <div class="ms-photo"><img src="assets/MR2.png" alt="MR2"></div>
+    <div class="ms-foot">
+      <div class="ms-foot-item"><span>Напитков</span><b>200+</b></div>
+      <div class="ms-foot-item"><span>Сценарии</span><b>Бизнес-центр, университет, лобби, природа</b></div>
+    </div>
+  </div>
+  <div class="ms-right">
+    <div class="ms-head">
+      <div>
+        <div class="ms-model">MR2</div>
+        <div class="ms-tagline">Advanced unmanned — двойная экстракция и двойная подача стакана, тонкая глубина 805 мм</div>
+      </div>
+      <div class="ms-price">
+        <span class="ms-price-num">¥42 700</span>
+        <span class="ms-price-cur">RMB · FOB</span>
+      </div>
+    </div>
+    <div class="ms-grid">
+      <div class="spec"><div class="spec-label">Размеры (В×Ш×Г)</div><div class="spec-value">1950 × 1060 × 805 мм</div></div>
+      <div class="spec"><div class="spec-label">Вес</div><div class="spec-value">325 кг</div></div>
+      <div class="spec"><div class="spec-label">Макс. мощность</div><div class="spec-value">2600 Вт</div></div>
+      <div class="spec"><div class="spec-label">Энергопотребление в ожидании</div><div class="spec-value">&lt; 150 Вт</div></div>
+
+      <div class="spec"><div class="spec-label">Экран</div><div class="spec-value"><strong>32″</strong> сенсорный</div></div>
+
+      <div class="spec"><div class="spec-label">Подача воды</div><div class="spec-value">18 л × 3 + ввод водопровода</div></div>
+
+      <div class="spec"><div class="spec-label">Свежее молоко</div><div class="spec-value muted">— нет</div></div>
+      <div class="spec"><div class="spec-label">Холодильник</div><div class="spec-value muted">— нет</div></div>
+      <div class="spec"><div class="spec-label">Ледогенератор</div><div class="spec-value"><strong>120 кг / сутки</strong></div></div>
+      <div class="spec"><div class="spec-label">Карбонатор</div><div class="spec-value muted">— нет</div></div>
+      <div class="spec"><div class="spec-label">Крем-модуль</div><div class="spec-value muted">— нет</div></div>
+      <div class="spec"><div class="spec-label">Аромо-выпуск кофе</div><div class="spec-value">Есть</div></div>
+
+      <div class="spec"><div class="spec-label">Бумажные стаканы</div><div class="spec-value">Ø 90 мм, 12 / 16 oz · <strong>3 трубки ≈ 110–150 шт</strong></div></div>
+      <div class="spec"><div class="spec-label">Прозрачные стаканы</div><div class="spec-value">Ø 90 / 98 мм, 16 oz · <strong>3 трубки ≈ 150 шт</strong></div></div>
+      <div class="spec"><div class="spec-label">Крышки</div><div class="spec-value">90–98 мм · 2 выпуска · ~100 наборов</div></div>
+      <div class="spec"><div class="spec-label">Помпы для сиропа</div><div class="spec-value">6</div></div>
+      <div class="spec"><div class="spec-label">Канистры для порошков</div><div class="spec-value">4 × 3 л</div></div>
+      <div class="spec"><div class="spec-label">Канистра для чая</div><div class="spec-value">2 × 5 л</div></div>
+
+      <div class="spec"><div class="spec-label">Стол для упаковки</div><div class="spec-value">Есть</div></div>
+      <div class="spec"><div class="spec-label">Транспортировка стакана</div><div class="spec-value">Видимый вращающийся механизм</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============= SLIDE 7: MC4 ============= -->
+<section data-label="07 MC4" class="ms">
+  <div class="ms-left">
+    <div class="ms-eyebrow">05</div>
+    <div class="ms-photo"><img src="assets/MC4.png" alt="MC4"></div>
+    <div class="ms-foot">
+      <div class="ms-foot-item"><span>Напитков</span><b>40+</b></div>
+      <div class="ms-foot-item"><span>Сценарии</span><b>Зал, офис, автосалон, АЗС, магазин</b></div>
+    </div>
+  </div>
+  <div class="ms-right">
+    <div class="ms-head">
+      <div>
+        <div class="ms-model">MC4</div>
+        <div class="ms-tagline">Полная автоматика в компактном корпусе — самый маленький автомат со встроенным ледогенератором</div>
+      </div>
+      <div class="ms-price">
+        <span class="ms-price-num">¥35 000</span>
+        <span class="ms-price-cur">RMB · FOB</span>
+      </div>
+    </div>
+    <div class="ms-grid">
+      <div class="spec"><div class="spec-label">Размеры (В×Ш×Г)</div><div class="spec-value"><strong>1900 × 720 × 725 мм</strong></div></div>
+      <div class="spec"><div class="spec-label">Вес</div><div class="spec-value">200 кг</div></div>
+      <div class="spec"><div class="spec-label">Макс. мощность</div><div class="spec-value">2000 Вт</div></div>
+      <div class="spec"><div class="spec-label">Энергопотребление в ожидании</div><div class="spec-value">&lt; 100 Вт</div></div>
+
+      <div class="spec"><div class="spec-label">Экран</div><div class="spec-value"><strong>21,5″</strong> сенсорный</div></div>
+
+      <div class="spec"><div class="spec-label">Подача воды</div><div class="spec-value">18 л × 2 + ввод водопровода</div></div>
+
+      <div class="spec"><div class="spec-label">Свежее молоко</div><div class="spec-value muted">— нет</div></div>
+      <div class="spec"><div class="spec-label">Холодильник</div><div class="spec-value muted">— нет</div></div>
+      <div class="spec"><div class="spec-label">Ледогенератор</div><div class="spec-value"><strong>30 кг / сутки</strong></div></div>
+      <div class="spec"><div class="spec-label">Карбонатор</div><div class="spec-value muted">— нет</div></div>
+      <div class="spec"><div class="spec-label">Крем-модуль</div><div class="spec-value muted">— нет</div></div>
+      <div class="spec"><div class="spec-label">Аромо-выпуск кофе</div><div class="spec-value">Есть</div></div>
+
+      <div class="spec"><div class="spec-label">Бумажные стаканы</div><div class="spec-value">Ø 90 мм, 12 oz · 3 трубки ≈ 110–150 шт</div></div>
+      <div class="spec"><div class="spec-label">Прозрачные стаканы</div><div class="spec-value muted">— нет</div></div>
+      <div class="spec"><div class="spec-label">Крышки</div><div class="spec-value">90 мм · отсек крышек + отсек трубочек · ~100 шт</div></div>
+      <div class="spec"><div class="spec-label">Помпы для сиропа</div><div class="spec-value">3</div></div>
+      <div class="spec"><div class="spec-label">Канистры для порошков</div><div class="spec-value">2 × 3 л + 1 × 2 л</div></div>
+      <div class="spec"><div class="spec-label">Канистра для чая</div><div class="spec-value muted">— нет</div></div>
+
+      <div class="spec"><div class="spec-label">Стол для упаковки</div><div class="spec-value">Есть</div></div>
+      <div class="spec"><div class="spec-label">Транспортировка стакана</div><div class="spec-value">Видимый вращающийся механизм</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============= SLIDE 8: MS1 ============= -->
+<section data-label="08 MS1" class="ms">
+  <div class="ms-left">
+    <div class="ms-eyebrow">06 · Бюджет</div>
+    <div class="ms-photo"><img src="assets/MS1.png" alt="MS1"></div>
+    <div class="ms-foot">
+      <div class="ms-foot-item"><span>Напитков</span><b>30+</b></div>
+      <div class="ms-foot-item"><span>Сценарии</span><b>Зал, офис, автосалон, АЗС, магазин</b></div>
+    </div>
+  </div>
+  <div class="ms-right">
+    <div class="ms-head">
+      <div>
+        <div class="ms-model">MS1</div>
+        <div class="ms-tagline">4-в-1: кофеварка, ледогенератор, дозатор воды, машина для растворимых напитков. Три цвета корпуса</div>
+      </div>
+      <div class="ms-price">
+        <span class="ms-price-num">¥28 000</span>
+        <span class="ms-price-cur">RMB · FOB</span>
+      </div>
+    </div>
+    <div class="ms-grid">
+      <div class="spec"><div class="spec-label">Размеры (В×Ш×Г)</div><div class="spec-value"><strong>1690 × 620 × 505 мм</strong></div></div>
+      <div class="spec"><div class="spec-label">Вес</div><div class="spec-value">120 кг</div></div>
+      <div class="spec"><div class="spec-label">Макс. мощность</div><div class="spec-value">2000 Вт</div></div>
+      <div class="spec"><div class="spec-label">Энергопотребление в ожидании</div><div class="spec-value">&lt; 70 Вт</div></div>
+
+      <div class="spec"><div class="spec-label">Экран</div><div class="spec-value"><strong>10,1″</strong> сенсорный</div></div>
+      <div class="spec"><div class="spec-label">Цвета корпуса</div><div class="spec-value">Серый · белый · синий</div></div>
+
+      <div class="spec"><div class="spec-label">Подача воды</div><div class="spec-value">18 л × 1 + ввод водопровода</div></div>
+
+      <div class="spec"><div class="spec-label">Свежее молоко</div><div class="spec-value muted">— нет</div></div>
+      <div class="spec"><div class="spec-label">Холодильник</div><div class="spec-value muted">— нет</div></div>
+      <div class="spec"><div class="spec-label">Ледогенератор</div><div class="spec-value"><strong>30 кг / сутки</strong></div></div>
+      <div class="spec"><div class="spec-label">Карбонатор</div><div class="spec-value muted">— нет</div></div>
+      <div class="spec"><div class="spec-label">Крем-модуль</div><div class="spec-value muted">— нет</div></div>
+      <div class="spec"><div class="spec-label">Аромо-выпуск кофе</div><div class="spec-value">Есть</div></div>
+
+      <div class="spec"><div class="spec-label">Бумажные стаканы</div><div class="spec-value">Ø 90 мм, 10 / 12 / 16 oz · 40–50 шт</div></div>
+      <div class="spec"><div class="spec-label">Прозрачные стаканы</div><div class="spec-value">Ø 90 мм, 10 / 12 / 16 oz · 40–50 шт</div></div>
+      <div class="spec"><div class="spec-label">Крышки</div><div class="spec-value">90 мм · отсек крышек + трубочек · ~40 шт</div></div>
+      <div class="spec"><div class="spec-label">Помпы для сиропа</div><div class="spec-value">2</div></div>
+      <div class="spec"><div class="spec-label">Канистры для порошков</div><div class="spec-value">2 × 3 л</div></div>
+      <div class="spec"><div class="spec-label">Канистра для чая</div><div class="spec-value muted">— нет</div></div>
+
+      <div class="spec"><div class="spec-label">Стол для упаковки</div><div class="spec-value muted">— нет</div></div>
+      <div class="spec"><div class="spec-label">Подача стакана</div><div class="spec-value">Самообслуживание, свой стакан возможен</div></div>
+    </div>
+  </div>
+</section>
+
+</deck-stage>
+<script src="deck-stage.js"></script>
+</body>
+</html>

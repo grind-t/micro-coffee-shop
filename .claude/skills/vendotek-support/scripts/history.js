@@ -34,7 +34,7 @@ async function fetchMessage(id) {
 	const textRegex = inbound ? inboundTextRegex : outboundTextRegex;
 	const text = textRegex.exec(rawText)?.[1]?.trim();
 
-	return { id, date, inbound, text };
+	return { date, inbound, text };
 }
 
 async function fetchMessages(ids, concurrency = 3) {

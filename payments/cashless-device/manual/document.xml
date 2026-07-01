@@ -1,0 +1,4335 @@
+<doclang version="0.7">
+  <page_header>
+    <layer value="furniture"/>
+    <location value="10"/>
+    <location value="15"/>
+    <location value="245"/>
+    <location value="26"/>
+    Проверьте актуальность версии руководства на     сайте
+  </page_header>
+  <picture>
+    <location value="210"/>
+    <location value="11"/>
+    <location value="243"/>
+    <location value="27"/>
+    <src uri="assets/image_000000_2e453a2a571344d1e1ab14cdf4662702c2d3cc811400ab33de221fc4fb599495.png"/>
+  </picture>
+  <heading level="2">
+    <location value="76"/>
+    <location value="169"/>
+    <location value="420"/>
+    <location value="225"/>
+    Vendotek VL/VN
+  </heading>
+  <heading level="2">
+    <location value="80"/>
+    <location value="245"/>
+    <location value="399"/>
+    <location value="264"/>
+    Руководство по установке и эксплуатации
+  </heading>
+  <text>
+    <location value="10"/>
+    <location value="269"/>
+    <location value="221"/>
+    <location value="284"/>
+    для работы в протоколе VTK
+  </text>
+  <picture>
+    <location value="315"/>
+    <location value="320"/>
+    <location value="429"/>
+    <location value="356"/>
+    <src uri="assets/image_000001_639c8b2dc3e741587d002880b174c5061f827bbcec041c2bf69f906f132e234e.png"/>
+  </picture>
+  <page_footer>
+    <layer value="furniture"/>
+    <location value="83"/>
+    <location value="475"/>
+    <location value="215"/>
+    <location value="484"/>
+<![CDATA[PROPRIETARY  &  CONFIDENTIAL]]>  </page_footer>
+  <page_break/>
+  <heading level="2">
+    <location value="26"/>
+    <location value="43"/>
+    <location value="150"/>
+    <location value="68"/>
+    Содержание
+  </heading>
+  <index>
+    <location value="44"/>
+    <location value="97"/>
+    <location value="478"/>
+    <location value="438"/>
+    <fcel/>
+    Термины и сокращения
+    <fcel/>
+    3
+    <fcel/>
+    Подключение к ТА (VN)
+    <fcel/>
+    21
+    <nl/>
+    <fcel/>
+    Введение
+    <fcel/>
+    4
+    <fcel/>
+    Подключение к ТА (VL)
+    <fcel/>
+    22
+    <nl/>
+    <fcel/>
+    Ограничение ответственности
+    <fcel/>
+    5
+    <fcel/>
+    Варианты монтажа
+    <fcel/>
+    23
+    <nl/>
+    <fcel/>
+    Гарантийные обязательства
+    <fcel/>
+    6
+    <fcel/>
+    Запуск
+    <fcel/>
+    25
+    <nl/>
+    <fcel/>
+    Уход за изделием
+    <fcel/>
+    7
+    <fcel/>
+    Возможные ошибки при старте
+    <fcel/>
+    27
+    <nl/>
+    <fcel/>
+    Описание устройства
+    <fcel/>
+    8
+    <fcel/>
+    Меню терминала
+    <fcel/>
+    28
+    <nl/>
+    <fcel/>
+    Протокол VTK
+    <fcel/>
+    9
+    <fcel/>
+    Меню по Wi-fi
+    <fcel/>
+    29
+    <nl/>
+    <fcel/>
+    Лицевая сторона
+    <fcel/>
+    10
+    <fcel/>
+    Меню Техника
+    <fcel/>
+    31
+    <nl/>
+    <fcel/>
+    Обратная сторона
+    <fcel/>
+    11
+    <fcel/>
+    Настройка канала связи
+    <fcel/>
+    34
+    <nl/>
+    <fcel/>
+    Комплект поставки
+    <fcel/>
+    12
+    <fcel/>
+    Modem (для VN)
+    <fcel/>
+    35
+    <nl/>
+    <fcel/>
+    Процесс оплаты
+    <fcel/>
+    13
+    <fcel/>
+    Wi-fi
+    <fcel/>
+    36
+    <nl/>
+    <fcel/>
+    Последовательность экранов
+    <fcel/>
+    14
+    <fcel/>
+    Ethernet
+    <fcel/>
+    37
+    <nl/>
+    <fcel/>
+    Порядок подключения
+    <fcel/>
+    15
+    <fcel/>
+    Меню оператора
+    <fcel/>
+    39
+    <nl/>
+    <fcel/>
+    Эквайринг
+    <fcel/>
+    16
+    <fcel/>
+    Советы и рекомендации
+    <fcel/>
+    40
+    <nl/>
+    <fcel/>
+    Личный кабинет TMS
+    <fcel/>
+    17
+    <fcel/>
+    Подключение внешней антенны
+    <fcel/>
+    41
+    <nl/>
+    <fcel/>
+    Фискализация
+    <fcel/>
+    18
+    <fcel/>
+    Комплектующие
+    <fcel/>
+    43
+    <nl/>
+    <fcel/>
+    Подключение и монтаж
+    <fcel/>
+    19
+    <fcel/>
+    Техническая поддержка
+    <fcel/>
+    45
+    <nl/>
+    <fcel/>
+    Информация о подключении
+    <fcel/>
+    20
+    <fcel/>
+    Приложение 1
+    <fcel/>
+    47
+    <nl/>
+  </index>
+  <page_footer>
+    <layer value="furniture"/>
+    <location value="26"/>
+    <location value="482"/>
+    <location value="158"/>
+    <location value="491"/>
+<![CDATA[PROPRIETARY  &  CONFIDENTIAL]]>  </page_footer>
+  <page_footer>
+    <layer value="furniture"/>
+    <location value="481"/>
+    <location value="479"/>
+    <location value="487"/>
+    <location value="491"/>
+    2
+  </page_footer>
+  <page_break/>
+  <heading level="2">
+    <location value="26"/>
+    <location value="43"/>
+    <location value="265"/>
+    <location value="68"/>
+    Термины и сокращения
+  </heading>
+  <table>
+    <location value="46"/>
+    <location value="93"/>
+    <location value="480"/>
+    <location value="402"/>
+    <fcel/>
+    POS
+    <fcel/>
+    Point Of Sale -точка продажи
+    <nl/>
+    <fcel/>
+    EMV
+    <fcel/>
+    Europay, Mastercard, Visa Международный стандарт для операций по банковским картам чипом
+    <nl/>
+    <fcel/>
+    TMS
+    <fcel/>
+    Terminal Management System -личный кабинет для настройки и мониторинга
+    <nl/>
+    <fcel/>
+    ТТ
+    <fcel/>
+    ГК «Терминальные технологии» -разработчик и производитель Vendotek
+    <nl/>
+    <fcel/>
+    ТА
+    <fcel/>
+    Торговый автомат (VM- Vending machine)
+    <nl/>
+    <fcel/>
+    Эквайринг
+    <fcel/>
+    Банковская услуга, позволяющая проводить безналичные платежи
+    <nl/>
+    <fcel/>
+    Фискализация
+    <fcel/>
+    Процесс регистрации данных о продаже в налоговой службе, создание фискального чека согласно 54-ФЗ
+    <nl/>
+  </table>
+  <page_footer>
+    <layer value="furniture"/>
+    <location value="26"/>
+    <location value="482"/>
+    <location value="158"/>
+    <location value="491"/>
+<![CDATA[PROPRIETARY  &  CONFIDENTIAL]]>  </page_footer>
+  <page_footer>
+    <layer value="furniture"/>
+    <location value="481"/>
+    <location value="479"/>
+    <location value="487"/>
+    <location value="491"/>
+    3
+  </page_footer>
+  <page_break/>
+  <page_header>
+    <layer value="furniture"/>
+    <location value="449"/>
+    <location value="14"/>
+    <location value="493"/>
+    <location value="24"/>
+    ВВЕДЕНИЕ
+  </page_header>
+  <heading level="2">
+    <location value="26"/>
+    <location value="43"/>
+    <location value="122"/>
+    <location value="68"/>
+    Введение
+  </heading>
+  <text>
+    <location value="52"/>
+    <location value="100"/>
+    <location value="312"/>
+    <location value="112"/>
+    Благодарим вас за выбор POS-терминалов Vendotek.
+  </text>
+  <text>
+    <location value="52"/>
+    <location value="124"/>
+    <location value="428"/>
+    <location value="154"/>
+    Терминалы Vendotek предназначены для установки на торговые автоматы и устройства самообслуживания с целью приема безналичных платежей.
+  </text>
+  <text>
+    <location value="52"/>
+    <location value="166"/>
+    <location value="461"/>
+    <location value="215"/>
+    Данное руководство по установке и эксплуатации содержит пошаговые инструкции по монтажу, подключению и настройке Vendotek VL/VN для работы в протоколе VTK.
+  </text>
+  <text>
+    <location value="52"/>
+    <location value="227"/>
+    <location value="432"/>
+    <location value="257"/>
+    Руководства по эксплуатации Vendotek VN по протоколам Pulse, MBD и EzPOS представлены на сайте .
+  </text>
+  <picture>
+    <location value="48"/>
+    <location value="300"/>
+    <location value="75"/>
+    <location value="335"/>
+    <src uri="assets/image_000002_03c14a0631b06c5a56da9574379423ffe137d0755d965385b1c106f39860923f.png"/>
+  </picture>
+  <picture>
+    <location value="51"/>
+    <location value="346"/>
+    <location value="72"/>
+    <location value="379"/>
+    <src uri="assets/image_000003_c257ccddec9010514645bfbdda990ec111fed3921dbd712aff35db05b2fe307f.png"/>
+  </picture>
+  <text>
+    <location value="81"/>
+    <location value="300"/>
+    <location value="451"/>
+    <location value="349"/>
+    Обращаем внимание на инструкции по технике безопасности, отмеченные данным символом. Игнорирование рекомендаций может привести к поломке терминала и необходимости его ремонта.
+  </text>
+  <text>
+    <location value="81"/>
+    <location value="365"/>
+    <location value="227"/>
+    <location value="377"/>
+    кликабельная ссылка в тексте
+  </text>
+  <text>
+    <location value="52"/>
+    <location value="401"/>
+    <location value="436"/>
+    <location value="450"/>
+    Если вы обнаружите информацию, являющуюся неправильной, неполной или вводящей в заблуждение, напишите нам на vendsupport@termt.com . Мы обязательно рассмотрим ваши комментарии и предложения.
+  </text>
+  <page_footer>
+    <layer value="furniture"/>
+    <location value="26"/>
+    <location value="482"/>
+    <location value="158"/>
+    <location value="492"/>
+<![CDATA[PROPRIETARY  &  CONFIDENTIAL]]>  </page_footer>
+  <page_footer>
+    <layer value="furniture"/>
+    <location value="480"/>
+    <location value="479"/>
+    <location value="487"/>
+    <location value="491"/>
+    4
+  </page_footer>
+  <page_break/>
+  <page_header>
+    <layer value="furniture"/>
+    <location value="449"/>
+    <location value="14"/>
+    <location value="493"/>
+    <location value="24"/>
+    ВВЕДЕНИЕ
+  </page_header>
+  <heading level="2">
+    <location value="26"/>
+    <location value="43"/>
+    <location value="332"/>
+    <location value="68"/>
+    Ограничение ответственности
+  </heading>
+  <text>
+    <location value="52"/>
+    <location value="102"/>
+    <location value="479"/>
+    <location value="132"/>
+    Vendotek является брендом, принадлежащим ООО «Мультипас» ГК «Терминальные Технологии» .
+  </text>
+  <text>
+    <location value="52"/>
+    <location value="148"/>
+    <location value="452"/>
+    <location value="178"/>
+    Документ специально подготовлен для внутреннего использования владельцами и операторами платежных терминалов Vendotek.
+  </text>
+  <text>
+    <location value="52"/>
+    <location value="194"/>
+    <location value="461"/>
+    <location value="224"/>
+    Информация в любой части данного документа дополняется ООО «Мультипас» без предварительного уведомления.
+  </text>
+  <text>
+    <location value="52"/>
+    <location value="240"/>
+    <location value="490"/>
+    <location value="271"/>
+    Все права на материалы и информацию, представленные в документе, принадлежат (без ограничений и исключений) ООО «Мультипас».
+  </text>
+  <page_footer>
+    <layer value="furniture"/>
+    <location value="26"/>
+    <location value="482"/>
+    <location value="158"/>
+    <location value="492"/>
+<![CDATA[PROPRIETARY  &  CONFIDENTIAL]]>  </page_footer>
+  <page_footer>
+    <layer value="furniture"/>
+    <location value="481"/>
+    <location value="479"/>
+    <location value="487"/>
+    <location value="491"/>
+    5
+  </page_footer>
+  <page_break/>
+  <page_header>
+    <layer value="furniture"/>
+    <location value="449"/>
+    <location value="14"/>
+    <location value="493"/>
+    <location value="24"/>
+    ВВЕДЕНИЕ
+  </page_header>
+  <heading level="2">
+    <location value="26"/>
+    <location value="43"/>
+    <location value="308"/>
+    <location value="68"/>
+    Гарантийные обязательства
+  </heading>
+  <text>
+    <location value="52"/>
+    <location value="100"/>
+    <location value="461"/>
+    <location value="167"/>
+    Гарантийный срок составляет 12 месяцев с даты продажи терминала. Дата продажи указывается в тех. паспорте изделия. При невозможности установления даты продажи, гарантийный срок исчисляется от даты производства. Дата производства указана на упаковке изделия.
+  </text>
+  <heading level="2">
+    <location value="71"/>
+    <location value="183"/>
+    <location value="446"/>
+    <location value="195"/>
+    Гарантийное обслуживание не распространяется на следующие случаи:
+  </heading>
+  <list>
+    <ldiv>
+      <marker>●</marker>
+    </ldiv>
+    <location value="58"/>
+    <location value="211"/>
+    <location value="469"/>
+    <location value="241"/>
+    воздействие влаги и образование конденсата с внутренней стороны терминала (на которой размещены разъемы для кабелей подключения);
+    <ldiv>
+      <marker>●</marker>
+    </ldiv>
+    <location value="58"/>
+    <location value="257"/>
+    <location value="476"/>
+    <location value="342"/>
+    модификация терминала, самостоятельный ремонт, доработка или вскрытие без письменного согласия ООО «Мультипас». К понятию «модификация» относятся, например, такие случаи: чистка деталей терминала агрессивными средствами, нанесение на разъёмы ком. модуля масляных растворов и других составов, самостоятельная пайка и др. действия;
+    <ldiv>
+      <marker>●</marker>
+    </ldiv>
+    <location value="58"/>
+    <location value="358"/>
+    <location value="466"/>
+    <location value="388"/>
+    устройство приобретено на вторичном рынке/передано на ознакомление либо тестирование;
+    <ldiv>
+      <marker>●</marker>
+    </ldiv>
+    <location value="58"/>
+    <location value="404"/>
+    <location value="473"/>
+    <location value="416"/>
+    возникновение дефектов в результате некорректного использования устройства.
+  </list>
+  <text>
+    <location value="52"/>
+    <location value="432"/>
+    <location value="444"/>
+    <location value="462"/>
+    Поставщик не несет ответственности за ущерб, связанный с повреждением или утратой изделия при транспортировке.
+  </text>
+  <page_footer>
+    <layer value="furniture"/>
+    <location value="26"/>
+    <location value="482"/>
+    <location value="158"/>
+    <location value="492"/>
+<![CDATA[PROPRIETARY  &  CONFIDENTIAL]]>  </page_footer>
+  <page_footer>
+    <layer value="furniture"/>
+    <location value="481"/>
+    <location value="479"/>
+    <location value="487"/>
+    <location value="491"/>
+    6
+  </page_footer>
+  <page_break/>
+  <page_header>
+    <layer value="furniture"/>
+    <location value="449"/>
+    <location value="14"/>
+    <location value="493"/>
+    <location value="24"/>
+    ВВЕДЕНИЕ
+  </page_header>
+  <heading level="2">
+    <location value="26"/>
+    <location value="43"/>
+    <location value="203"/>
+    <location value="68"/>
+    Уход за изделием
+  </heading>
+  <text>
+    <location value="51"/>
+    <location value="101"/>
+    <location value="469"/>
+    <location value="131"/>
+    Рабочую поверхность изделия необходимо содержать в чистоте. Для очистки допускается использование мягкой ткани и моющих средств без абразивных частиц.
+  </text>
+  <picture>
+    <location value="19"/>
+    <location value="141"/>
+    <location value="47"/>
+    <location value="176"/>
+    <src uri="assets/image_000004_55628cb0260e7ba3b98b781f11972fb7ef776665de9af1f6ca9e17a47c843668.png"/>
+  </picture>
+  <text>
+    <location value="51"/>
+    <location value="147"/>
+    <location value="459"/>
+    <location value="177"/>
+    ВАЖНО : в процессе очистки избегайте использования растворителей, абразивных материалов и легковоспламеняющихся жидкостей.
+  </text>
+  <text>
+    <location value="51"/>
+    <location value="193"/>
+    <location value="451"/>
+    <location value="223"/>
+    При поставке на экране терминала наклеена защитная пленка, снимите её перед началом работы.
+  </text>
+  <heading level="2">
+    <location value="225"/>
+    <location value="287"/>
+    <location value="292"/>
+    <location value="300"/>
+    ВНИМАНИЕ!
+  </heading>
+  <list>
+    <ldiv>
+      <marker>●</marker>
+    </ldiv>
+    <location value="52"/>
+    <location value="316"/>
+    <location value="450"/>
+    <location value="349"/>
+    Вскрытие и ремонт терминала производится только силами инженеров компании ООО «Мультипас».
+    <ldiv>
+      <marker>●</marker>
+    </ldiv>
+    <location value="52"/>
+    <location value="356"/>
+    <location value="461"/>
+    <location value="388"/>
+    Попытки самостоятельного ремонта или вскрытия влекут за собой снятие терминала с гарантийного обслуживания!
+  </list>
+  <page_footer>
+    <layer value="furniture"/>
+    <location value="26"/>
+    <location value="482"/>
+    <location value="158"/>
+    <location value="492"/>
+<![CDATA[PROPRIETARY  &  CONFIDENTIAL]]>  </page_footer>
+  <page_footer>
+    <layer value="furniture"/>
+    <location value="481"/>
+    <location value="479"/>
+    <location value="487"/>
+    <location value="491"/>
+    7
+  </page_footer>
+  <page_break/>
+  <page_header>
+    <layer value="furniture"/>
+    <location value="444"/>
+    <location value="7"/>
+    <location value="501"/>
+    <location value="31"/>
+    ОПИСАНИЕ УСТРОЙСТВА
+  </page_header>
+  <heading level="2">
+    <location value="26"/>
+    <location value="43"/>
+    <location value="240"/>
+    <location value="68"/>
+    Описание устройства
+  </heading>
+  <text>
+    <location value="52"/>
+    <location value="104"/>
+    <location value="432"/>
+    <location value="134"/>
+    Vendotek VL и Vendotek VN представляют собой терминал для безналичной оплаты товаров и услуг в вендинге и устройствах самообслуживания.
+  </text>
+  <heading level="2">
+    <location value="72"/>
+    <location value="164"/>
+    <location value="457"/>
+    <location value="176"/>
+    Одно компактное устройство Vendotek выполняет множество функций:
+  </heading>
+  <list>
+    <ldiv>
+      <marker>●</marker>
+    </ldiv>
+    <location value="52"/>
+    <location value="192"/>
+    <location value="459"/>
+    <location value="241"/>
+    Приём оплаты бесконтактными банковскими картами (МИР, VISA, Mastercard, UnionPay), мобильными платежными системами (ApplePay, GooglePay, SamsungPay и т.д.) и устройствами с поддержкой технологии NFC;
+    <ldiv>
+      <marker>●</marker>
+    </ldiv>
+    <location value="52"/>
+    <location value="256"/>
+    <location value="399"/>
+    <location value="269"/>
+    Приём оплаты по QR-коду через Систему Быстрых Платежей ( СБП );
+    <ldiv>
+      <marker>●</marker>
+    </ldiv>
+    <location value="52"/>
+    <location value="284"/>
+    <location value="437"/>
+    <location value="296"/>
+    Передача данных о наличных и безналичных продажах в облачную кассу ;
+    <ldiv>
+      <marker>●</marker>
+    </ldiv>
+    <location value="52"/>
+    <location value="312"/>
+    <location value="419"/>
+    <location value="342"/>
+    Предоставление фискального чека в виде QR-кода для сканирования покупателем через приложение ФНС;
+    <ldiv>
+      <marker>●</marker>
+    </ldiv>
+    <location value="52"/>
+    <location value="358"/>
+    <location value="270"/>
+    <location value="370"/>
+    Фискализация маркированного товара;
+    <ldiv>
+      <marker>●</marker>
+    </ldiv>
+    <location value="52"/>
+    <location value="386"/>
+    <location value="337"/>
+    <location value="398"/>
+    Передача данных о продажах в личный кабинет TMS;
+    <ldiv>
+      <marker>●</marker>
+    </ldiv>
+    <location value="52"/>
+    <location value="414"/>
+    <location value="270"/>
+    <location value="426"/>
+    Показ рекламных материалов на экране;
+    <ldiv>
+      <marker>●</marker>
+    </ldiv>
+    <location value="52"/>
+    <location value="442"/>
+    <location value="441"/>
+    <location value="471"/>
+    Передача данных в системы телеметрии : КитВендинг , Телеметрон , Эфор, TeleVend.
+  </list>
+  <page_footer>
+    <layer value="furniture"/>
+    <location value="26"/>
+    <location value="482"/>
+    <location value="158"/>
+    <location value="492"/>
+<![CDATA[PROPRIETARY  &  CONFIDENTIAL]]>  </page_footer>
+  <page_footer>
+    <layer value="furniture"/>
+    <location value="480"/>
+    <location value="479"/>
+    <location value="487"/>
+    <location value="491"/>
+    8
+  </page_footer>
+  <page_break/>
+  <page_header>
+    <layer value="furniture"/>
+    <location value="444"/>
+    <location value="7"/>
+    <location value="501"/>
+    <location value="31"/>
+    ОПИСАНИЕ УСТРОЙСТВА
+  </page_header>
+  <heading level="2">
+    <location value="26"/>
+    <location value="43"/>
+    <location value="164"/>
+    <location value="68"/>
+    Протокол VTK
+  </heading>
+  <text>
+    <location value="53"/>
+    <location value="103"/>
+    <location value="443"/>
+    <location value="152"/>
+    Протокол VTK - это протокол прикладного уровня для взаимодействия  между POS  терминалом и контроллером торгового автомата (VMC), передаваемый по последовательному каналу связи RS-232 или по TCP/IP.
+  </text>
+  <text>
+    <location value="53"/>
+    <location value="182"/>
+    <location value="453"/>
+    <location value="213"/>
+    Протокол VTK является общим для семейства устройств Vendotek, но реализация (поддерживаемые команды) могут отличаться для разных моделей устройств.
+  </text>
+  <text>
+    <location value="53"/>
+    <location value="244"/>
+    <location value="440"/>
+    <location value="274"/>
+    В рамках данного руководства рассматриваются модели терминалов Vendotek VL/VN  Их основное различие в интерфейсах:
+  </text>
+  <list>
+    <ldiv>
+      <marker>●</marker>
+    </ldiv>
+    <location value="59"/>
+    <location value="283"/>
+    <location value="212"/>
+    <location value="296"/>
+    Vendotek VL - Ethernet, WiFi;
+    <ldiv>
+      <marker>●</marker>
+    </ldiv>
+    <location value="59"/>
+    <location value="302"/>
+    <location value="238"/>
+    <location value="314"/>
+    Vendotek VN - Ethernet, WiFi, SIM.
+  </list>
+  <text>
+    <location value="53"/>
+    <location value="345"/>
+    <location value="456"/>
+    <location value="375"/>
+    Актуальная  версия  спецификации  протокола  VTK  представлена  на  сайте  https://termt.ru/ в разделе  Поддержка - Загрузки .
+  </text>
+  <page_footer>
+    <layer value="furniture"/>
+    <location value="26"/>
+    <location value="482"/>
+    <location value="158"/>
+    <location value="491"/>
+<![CDATA[PROPRIETARY  &  CONFIDENTIAL]]>  </page_footer>
+  <page_footer>
+    <layer value="furniture"/>
+    <location value="481"/>
+    <location value="479"/>
+    <location value="487"/>
+    <location value="491"/>
+    9
+  </page_footer>
+  <page_break/>
+  <page_header>
+    <layer value="furniture"/>
+    <location value="444"/>
+    <location value="7"/>
+    <location value="501"/>
+    <location value="31"/>
+    ОПИСАНИЕ УСТРОЙСТВА
+  </page_header>
+  <heading level="2">
+    <location value="26"/>
+    <location value="43"/>
+    <location value="383"/>
+    <location value="68"/>
+    Vendotek VL/VN - лицевая сторона
+  </heading>
+  <picture>
+    <location value="78"/>
+    <location value="140"/>
+    <location value="476"/>
+    <location value="383"/>
+    <src uri="assets/image_000005_e8cb805403768eadab86be68ecc1d2be33f0b25483feade422816a076d3c4797.png"/>
+  </picture>
+  <page_footer>
+    <layer value="furniture"/>
+    <location value="26"/>
+    <location value="482"/>
+    <location value="158"/>
+    <location value="492"/>
+<![CDATA[PROPRIETARY  &  CONFIDENTIAL]]>  </page_footer>
+  <page_footer>
+    <layer value="furniture"/>
+    <location value="479"/>
+    <location value="479"/>
+    <location value="489"/>
+    <location value="491"/>
+    10
+  </page_footer>
+  <page_break/>
+  <page_header>
+    <layer value="furniture"/>
+    <location value="444"/>
+    <location value="7"/>
+    <location value="501"/>
+    <location value="31"/>
+    ОПИСАНИЕ УСТРОЙСТВА
+  </page_header>
+  <heading level="2">
+    <location value="26"/>
+    <location value="43"/>
+    <location value="387"/>
+    <location value="68"/>
+    Vendotek VL/VN- обратная сторона
+  </heading>
+  <picture>
+    <location value="8"/>
+    <location value="140"/>
+    <location value="500"/>
+    <location value="380"/>
+    <src uri="assets/image_000006_fbb0182f0fb884e62de1971011a9ed22d76a35747bef3ba3527f19f5c9072764.png"/>
+  </picture>
+  <page_footer>
+    <layer value="furniture"/>
+    <location value="26"/>
+    <location value="482"/>
+    <location value="158"/>
+    <location value="491"/>
+<![CDATA[PROPRIETARY  &  CONFIDENTIAL]]>  </page_footer>
+  <page_footer>
+    <layer value="furniture"/>
+    <location value="480"/>
+    <location value="479"/>
+    <location value="487"/>
+    <location value="491"/>
+    11
+  </page_footer>
+  <page_break/>
+  <page_header>
+    <layer value="furniture"/>
+    <location value="444"/>
+    <location value="7"/>
+    <location value="501"/>
+    <location value="31"/>
+    ОПИСАНИЕ УСТРОЙСТВА
+  </page_header>
+  <heading level="2">
+    <location value="29"/>
+    <location value="43"/>
+    <location value="223"/>
+    <location value="68"/>
+    Комплект поставки
+  </heading>
+  <picture>
+    <location value="34"/>
+    <location value="114"/>
+    <location value="457"/>
+    <location value="440"/>
+    <src uri="assets/image_000007_8fb6f166c21b18a0bf43776fef789dc1507e9e544fa82c9725e6627d6b99ea94.png"/>
+  </picture>
+  <page_footer>
+    <layer value="furniture"/>
+    <location value="40"/>
+    <location value="469"/>
+    <location value="180"/>
+    <location value="479"/>
+    приобретайте отдельно на termt.ru
+  </page_footer>
+  <page_break/>
+  <page_header>
+    <layer value="furniture"/>
+    <location value="451"/>
+    <location value="7"/>
+    <location value="493"/>
+    <location value="31"/>
+    ПРОЦЕСС ОПЛАТЫ
+  </page_header>
+  <heading level="2">
+    <location value="28"/>
+    <location value="43"/>
+    <location value="357"/>
+    <location value="68"/>
+    Процесс оплаты через терминал
+  </heading>
+  <picture>
+    <location value="22"/>
+    <location value="101"/>
+    <location value="470"/>
+    <location value="431"/>
+    <src uri="assets/image_000008_ba6947c22be6563ed032814126c49d21ef2fdfa699948f29630f2744edc7302e.png"/>
+  </picture>
+  <page_footer>
+    <layer value="furniture"/>
+    <location value="26"/>
+    <location value="482"/>
+    <location value="158"/>
+    <location value="492"/>
+<![CDATA[PROPRIETARY  &  CONFIDENTIAL]]>  </page_footer>
+  <page_footer>
+    <layer value="furniture"/>
+    <location value="479"/>
+    <location value="479"/>
+    <location value="488"/>
+    <location value="491"/>
+    13
+  </page_footer>
+  <page_break/>
+  <page_header>
+    <layer value="furniture"/>
+    <location value="451"/>
+    <location value="7"/>
+    <location value="493"/>
+    <location value="31"/>
+    ПРОЦЕСС ОПЛАТЫ
+  </page_header>
+  <heading level="2">
+    <location value="29"/>
+    <location value="42"/>
+    <location value="442"/>
+    <location value="67"/>
+    Последовательность экранов при оплате
+  </heading>
+  <picture>
+    <location value="13"/>
+    <location value="92"/>
+    <location value="506"/>
+    <location value="400"/>
+    <src uri="assets/image_000009_2612d82d0a92e837d7c70a3b3193576340ebd456095faac5f492cc11ba072dbf.png"/>
+  </picture>
+  <page_footer>
+    <layer value="furniture"/>
+    <location value="26"/>
+    <location value="482"/>
+    <location value="158"/>
+    <location value="491"/>
+<![CDATA[PROPRIETARY  &  CONFIDENTIAL]]>  </page_footer>
+  <page_footer>
+    <layer value="furniture"/>
+    <location value="478"/>
+    <location value="479"/>
+    <location value="489"/>
+    <location value="491"/>
+    14
+  </page_footer>
+  <page_break/>
+  <page_header>
+    <layer value="furniture"/>
+    <location value="438"/>
+    <location value="14"/>
+    <location value="504"/>
+    <location value="24"/>
+    ПОДКЛЮЧЕНИЕ
+  </page_header>
+  <heading level="2">
+    <location value="30"/>
+    <location value="43"/>
+    <location value="362"/>
+    <location value="68"/>
+    Порядок подключения Vendotek
+  </heading>
+  <text>
+    <location value="52"/>
+    <location value="100"/>
+    <location value="442"/>
+    <location value="130"/>
+    Для быстрого начала приёма платежей рекомендуем следующий порядок подключения терминала.
+  </text>
+  <text>
+    <location value="52"/>
+    <location value="146"/>
+    <location value="261"/>
+    <location value="158"/>
+    Шаги 1-3 могут выполняться параллельно.
+  </text>
+  <picture>
+    <location value="39"/>
+    <location value="175"/>
+    <location value="65"/>
+    <location value="456"/>
+    <src uri="assets/image_000010_f4b43190c320fa9c6a254872a5fe964acbfb26a9129238e3d69771f5da884f8a.png"/>
+  </picture>
+  <text>
+    <location value="73"/>
+    <location value="183"/>
+    <location value="445"/>
+    <location value="219"/>
+    Выберите подходящий банк среди партнёров Vendotek и подайте заявку на подключение эквайринга. Подключение занимает до 7 дней.
+  </text>
+  <text>
+    <location value="73"/>
+    <location value="240"/>
+    <location value="286"/>
+    <location value="252"/>
+    Зарегистрируйтесь в личном кабинете TMS.
+  </text>
+  <text>
+    <location value="73"/>
+    <location value="274"/>
+    <location value="480"/>
+    <location value="310"/>
+    Выберите подходящую онлайн-кассу среди партнёров Vendotek для фискализации платежей и выполните действия из инструкции к соответствующей кассе.
+  </text>
+  <text>
+    <location value="73"/>
+    <location value="331"/>
+    <location value="250"/>
+    <location value="343"/>
+    Установите и подключите терминал.
+  </text>
+  <text>
+    <location value="73"/>
+    <location value="364"/>
+    <location value="268"/>
+    <location value="376"/>
+    Проверьте соответствие настроек на ТА.
+  </text>
+  <text>
+    <location value="73"/>
+    <location value="398"/>
+    <location value="218"/>
+    <location value="410"/>
+    Проверьте работу терминала
+  </text>
+  <page_footer>
+    <layer value="furniture"/>
+    <location value="26"/>
+    <location value="482"/>
+    <location value="158"/>
+    <location value="492"/>
+<![CDATA[PROPRIETARY  &  CONFIDENTIAL]]>  </page_footer>
+  <page_footer>
+    <layer value="furniture"/>
+    <location value="479"/>
+    <location value="479"/>
+    <location value="488"/>
+    <location value="491"/>
+    15
+  </page_footer>
+  <page_break/>
+  <page_header>
+    <layer value="furniture"/>
+    <location value="439"/>
+    <location value="14"/>
+    <location value="505"/>
+    <location value="24"/>
+    ПОДКЛЮЧЕНИЕ
+  </page_header>
+  <heading level="2">
+    <location value="28"/>
+    <location value="43"/>
+    <location value="262"/>
+    <location value="68"/>
+    Подключите эквайринг
+  </heading>
+  <picture>
+    <location value="32"/>
+    <location value="95"/>
+    <location value="48"/>
+    <location value="116"/>
+    <src uri="assets/image_000011_02b766763ec7e2dd292f0c619a520bb2dd20a03c50d9597472b5f03802cacec7.png"/>
+  </picture>
+  <picture>
+    <location value="35"/>
+    <location value="238"/>
+    <location value="50"/>
+    <location value="256"/>
+    <src uri="assets/image_000012_f62ba59183b331bb537d753aecfa36943d10c4c5118fd57f2c0db6d6314b8d51.png"/>
+  </picture>
+  <picture>
+    <location value="33"/>
+    <location value="289"/>
+    <location value="49"/>
+    <location value="309"/>
+    <src uri="assets/image_000013_627c89215e089779370da8e133e7a01d0af5d50f94b43c1ef6b359dc780c713e.png"/>
+  </picture>
+  <picture>
+    <location value="34"/>
+    <location value="340"/>
+    <location value="47"/>
+    <location value="361"/>
+    <src uri="assets/image_000014_fbf8ba720a88925f37e38bb8160668f55c228f85e2489e8d4f5b32a28151e18f.png"/>
+  </picture>
+  <picture>
+    <location value="34"/>
+    <location value="405"/>
+    <location value="49"/>
+    <location value="421"/>
+    <src uri="assets/image_000015_911d63ad0e413208506614a892cfdf9ce9aea1e56f0e5e6185a7e599ff806f49.png"/>
+  </picture>
+  <picture>
+    <location value="53"/>
+    <location value="101"/>
+    <location value="62"/>
+    <location value="114"/>
+    <src uri="assets/image_000016_757e6195bc678e512b195c54f78c23cf60978b75f155ce383d9f54923562d9e4.png"/>
+  </picture>
+  <picture>
+    <location value="50"/>
+    <location value="463"/>
+    <location value="66"/>
+    <location value="483"/>
+    <src uri="assets/image_000017_347e4d71e8737706fddf138930083499ab661641bcdd6274ce22c13357e8d8f7.png"/>
+  </picture>
+  <text>
+    <location value="73"/>
+    <location value="103"/>
+    <location value="387"/>
+    <location value="131"/>
+    Выберите подходящий для вашего бизнеса банк-эквайер среди партнёров Vendotek:
+  </text>
+  <picture>
+    <location value="67"/>
+    <location value="154"/>
+    <location value="77"/>
+    <location value="169"/>
+    <src uri="assets/image_000018_da385897710916705b2e2218afa9e4763468d6ad2d3448b3f35070ea6abcf05b.png"/>
+  </picture>
+  <text>
+    <location value="77"/>
+    <location value="145"/>
+    <location value="186"/>
+    <location value="167"/>
+    БАНКИ ДЛЯ ПОДКЛЮЧЕНИЯ ЭКВАЙРИНГА
+  </text>
+  <text>
+    <location value="84"/>
+    <location value="189"/>
+    <location value="179"/>
+    <location value="213"/>
+    р/с в банке-эквайере иметь не обязательно
+  </text>
+  <text>
+    <location value="289"/>
+    <location value="145"/>
+    <location value="398"/>
+    <location value="154"/>
+    БАНКИ ДЛЯ ПОДКЛЮЧЕНИЯ
+  </text>
+  <picture>
+    <location value="279"/>
+    <location value="154"/>
+    <location value="305"/>
+    <location value="169"/>
+    <src uri="assets/image_000019_b35b3edd7d1e6ccfea4c10c6f994bf5c4f86a3096c3c0c783bdfa4794637b58a.png"/>
+    <text>
+      <location value="289"/>
+      <location value="157"/>
+      <location value="305"/>
+      <location value="167"/>
+      СБП
+    </text>
+  </picture>
+  <text>
+    <location value="294"/>
+    <location value="189"/>
+    <location value="384"/>
+    <location value="213"/>
+    необходимо иметь р/с в банке-эквайере
+  </text>
+  <picture>
+    <location value="402"/>
+    <location value="143"/>
+    <location value="455"/>
+    <location value="213"/>
+    <src uri="assets/image_000020_6a67bdb971004536673b7845bacfebddbcf680e7883834e3c4602ebc8718dc68.png"/>
+  </picture>
+  <picture>
+    <location value="199"/>
+    <location value="143"/>
+    <location value="252"/>
+    <location value="213"/>
+    <src uri="assets/image_000021_0ed580abedfa01772f5dab0eaa7a747fb433e37d053979df7ef76c0b4bbba164.png"/>
+  </picture>
+  <text>
+    <location value="73"/>
+    <location value="243"/>
+    <location value="425"/>
+    <location value="270"/>
+    Заключите договор с банком на услуги эквайринга, использования СБП (оплаты по QR-коду).
+  </text>
+  <text>
+    <location value="73"/>
+    <location value="294"/>
+    <location value="444"/>
+    <location value="322"/>
+    Направьте в банк заявку на подключение терминалов. Каждому терминалу в банке присваивается уникальный идентификационный номер (TID).
+  </text>
+  <text>
+    <location value="73"/>
+    <location value="346"/>
+    <location value="450"/>
+    <location value="374"/>
+    После регистрации со своей стороны банк направляет в службу технической поддержки Vendotek данные для удалённой настройки терминалов.
+  </text>
+  <text>
+    <location value="73"/>
+    <location value="408"/>
+    <location value="438"/>
+    <location value="436"/>
+    Получите от банка уведомление об успешной регистрации терминалов. Сроки подключения зависят от банка и обычно занимают не более 7 дней.
+  </text>
+  <page_footer>
+    <layer value="furniture"/>
+    <location value="24"/>
+    <location value="497"/>
+    <location value="157"/>
+    <location value="506"/>
+<![CDATA[PROPRIETARY  &  CONFIDENTIAL]]>  </page_footer>
+  <page_footer>
+    <layer value="furniture"/>
+    <location value="494"/>
+    <location value="485"/>
+    <location value="504"/>
+    <location value="497"/>
+    16
+  </page_footer>
+  <page_break/>
+  <page_header>
+    <layer value="furniture"/>
+    <location value="439"/>
+    <location value="14"/>
+    <location value="505"/>
+    <location value="24"/>
+    ПОДКЛЮЧЕНИЕ
+  </page_header>
+  <heading level="2">
+    <location value="29"/>
+    <location value="43"/>
+    <location value="243"/>
+    <location value="68"/>
+    Личный кабинет TMS
+  </heading>
+  <text>
+    <location value="52"/>
+    <location value="101"/>
+    <location value="439"/>
+    <location value="129"/>
+    TMS (Terminal Management System) - cистема мониторинга и управления терминалами Vendotek.
+  </text>
+  <heading level="2">
+    <location value="52"/>
+    <location value="142"/>
+    <location value="331"/>
+    <location value="154"/>
+    ОСНОВНЫЕ ВОЗМОЖНОСТИ ЛИЧНОГО КАБИНЕТА TMS:
+  </heading>
+  <list>
+    <ldiv/>
+    <location value="68"/>
+    <location value="170"/>
+    <location value="369"/>
+    <location value="182"/>
+    Удалённая настройка параметров, обновление конфигураций
+    <ldiv/>
+    <location value="68"/>
+    <location value="186"/>
+    <location value="480"/>
+    <location value="198"/>
+    Мониторинг продаж, статусов работы терминала и его взаимодействия с автоматом
+    <ldiv/>
+    <location value="68"/>
+    <location value="202"/>
+    <location value="234"/>
+    <location value="214"/>
+    Выгрузка отчётов по транзакциям
+    <ldiv/>
+    <location value="68"/>
+    <location value="218"/>
+    <location value="263"/>
+    <location value="230"/>
+    Загрузка планограмм для онлайн-кассы
+    <ldiv/>
+    <location value="68"/>
+    <location value="234"/>
+    <location value="184"/>
+    <location value="246"/>
+    Снятие EVA-DTS отчётов
+  </list>
+  <heading level="2">
+    <location value="52"/>
+    <location value="273"/>
+    <location value="262"/>
+    <location value="285"/>
+    РЕГИСТРАЦИЯ В ЛИЧНОМ КАБИНЕТЕ TMS
+  </heading>
+  <list class="ordered">
+    <ldiv>
+      <marker>1.</marker>
+    </ldiv>
+    <location value="49"/>
+    <location value="299"/>
+    <location value="301"/>
+    <location value="329"/>
+    Отправьте запрос на vendsupport@termt.com. В запросе укажите:
+    <ldiv/>
+    <location value="81"/>
+    <location value="333"/>
+    <location value="200"/>
+    <location value="344"/>
+    адрес электронной почты
+    <ldiv/>
+    <location value="81"/>
+    <location value="347"/>
+    <location value="184"/>
+    <location value="359"/>
+    название организации
+    <ldiv/>
+    <location value="81"/>
+    <location value="362"/>
+    <location value="222"/>
+    <location value="373"/>
+    серийные номера терминалов.
+    <ldiv>
+      <marker>2.</marker>
+    </ldiv>
+    <location value="49"/>
+    <location value="390"/>
+    <location value="451"/>
+    <location value="402"/>
+    Авторизуйтесь в личном кабинете , используя полученные на почту данные.
+    <ldiv>
+      <marker>3.</marker>
+    </ldiv>
+    <location value="49"/>
+    <location value="408"/>
+    <location value="406"/>
+    <location value="421"/>
+    Проверьте, что ваши терминалы появились во вкладке «Устройства».
+    <ldiv>
+      <marker>4.</marker>
+    </ldiv>
+    <href uri="https://termt.ru/instruktsii#lk"/>
+    <location value="49"/>
+    <location value="427"/>
+    <location value="380"/>
+    <location value="439"/>
+    Скачайте и ознакомьтесь с Руководством пользователя TMS .
+  </list>
+  <picture>
+    <location value="339"/>
+    <location value="230"/>
+    <location value="387"/>
+    <location value="292"/>
+    <src uri="assets/image_000022_fc3a17e1d362213aaa339310c23c472164539ac64a7880edfda05f2f260b1cf9.png"/>
+  </picture>
+  <picture>
+    <location value="389"/>
+    <location value="277"/>
+    <location value="469"/>
+    <location value="292"/>
+    <src uri="assets/image_000023_3a19fdf20a9d972d40ed0789e1b6a5ebabd9bd7618c0466e404f45ec4c5ecc7e.png"/>
+    <text>
+      <location value="398"/>
+      <location value="280"/>
+      <location value="469"/>
+      <location value="291"/>
+      tms.vendotek.ru
+    </text>
+  </picture>
+  <text>
+    <location value="336"/>
+    <location value="304"/>
+    <location value="473"/>
+    <location value="358"/>
+    Доступ возможен с любого устройства, подключенного к интернету, включая мобильные устройства, через WEBинтерфейс. Не требует установки дополнительного ПО.
+  </text>
+  <page_footer>
+    <layer value="furniture"/>
+    <location value="26"/>
+    <location value="482"/>
+    <location value="158"/>
+    <location value="492"/>
+<![CDATA[PROPRIETARY  &  CONFIDENTIAL]]>  </page_footer>
+  <page_footer>
+    <layer value="furniture"/>
+    <location value="475"/>
+    <location value="473"/>
+    <location value="485"/>
+    <location value="484"/>
+    17
+  </page_footer>
+  <page_break/>
+  <page_header>
+    <layer value="furniture"/>
+    <location value="439"/>
+    <location value="14"/>
+    <location value="505"/>
+    <location value="24"/>
+    ПОДКЛЮЧЕНИЕ
+  </page_header>
+  <heading level="2">
+    <location value="28"/>
+    <location value="43"/>
+    <location value="408"/>
+    <location value="68"/>
+    Подключите фискализацию платежей
+  </heading>
+  <text>
+    <location value="51"/>
+    <location value="100"/>
+    <location value="451"/>
+    <location value="149"/>
+    Vendotek поддерживает фискализацию наличных и безналичных платежей через облачные онлайн-кассы и ферму касс (ККМ менеджер) и отображает QR-код чека на экране в соотвествии с 54-ФЗ.
+  </text>
+  <picture>
+    <location value="35"/>
+    <location value="167"/>
+    <location value="50"/>
+    <location value="186"/>
+    <src uri="assets/image_000024_18ed367ec8112d432a60cebee4082783fa5846c9d93c783be174a2cac3f55f9b.png"/>
+  </picture>
+  <text>
+    <location value="76"/>
+    <location value="173"/>
+    <location value="449"/>
+    <location value="203"/>
+    Выберите оптимальную для вас облачную кассу среди партнёров Vendotek и заключите договор.
+  </text>
+  <picture>
+    <location value="33"/>
+    <location value="221"/>
+    <location value="51"/>
+    <location value="240"/>
+    <src uri="assets/image_000025_5372562a84a8fc0affc3dc831f9e677a16a4f167f16832e18d1bbc1b2e9d4cb0.png"/>
+  </picture>
+  <picture>
+    <location value="35"/>
+    <location value="366"/>
+    <location value="50"/>
+    <location value="382"/>
+    <src uri="assets/image_000026_e1a2daa06bbe4e96b08d7f002f763d0652b7ccfb2730c8a302b927cadbfd7e71.png"/>
+  </picture>
+  <picture>
+    <location value="54"/>
+    <location value="169"/>
+    <location value="64"/>
+    <location value="182"/>
+    <src uri="assets/image_000027_b1f068a3ac3344fa5c791a55e560930b5c31be5d8a87676d94ac18899ac41a42.png"/>
+  </picture>
+  <picture>
+    <location value="54"/>
+    <location value="226"/>
+    <location value="65"/>
+    <location value="238"/>
+    <src uri="assets/image_000028_02ef7e6b72474ef80dce03972438d5ae73e80eb44f5f9485cf1f82926bf3dcee.png"/>
+  </picture>
+  <picture>
+    <location value="55"/>
+    <location value="369"/>
+    <location value="65"/>
+    <location value="381"/>
+    <src uri="assets/image_000029_a132b2c4983fac9875a88a2550dd1617e5ffc4803c8fcdb9852f12743d0a0ebb.png"/>
+  </picture>
+  <picture>
+    <location value="52"/>
+    <location value="455"/>
+    <location value="68"/>
+    <location value="476"/>
+    <src uri="assets/image_000030_e0b0f65872fc953c01e6b38e3c706e0ffa180f7e59bf9a9e08868560a09f2d00.png"/>
+  </picture>
+  <text>
+    <location value="76"/>
+    <location value="228"/>
+    <location value="412"/>
+    <location value="240"/>
+    Подключите фискализацию согласно инструкции к выбранной кассе.
+  </text>
+  <list>
+    <ldiv/>
+    <location value="97"/>
+    <location value="271"/>
+    <location value="349"/>
+    <location value="281"/>
+    заполните информацию в ЛК облачной кассы и ЛК Vendotek
+    <ldiv/>
+    <location value="97"/>
+    <location value="284"/>
+    <location value="394"/>
+    <location value="295"/>
+    добавьте товары, загрузите и активируйте планограммы в ЛК Vendotek
+    <ldiv/>
+    <location value="97"/>
+    <location value="298"/>
+    <location value="216"/>
+    <location value="308"/>
+    настройте цены на автомате
+  </list>
+  <picture>
+    <location value="186"/>
+    <location value="329"/>
+    <location value="196"/>
+    <location value="345"/>
+    <src uri="assets/image_000031_8f2cfa4190ad6cc47704f54975780a51ea83baf99f4b117d4bf045365efbf544.png"/>
+  </picture>
+  <text>
+    <href uri="https://termt.ru/fiscal"/>
+    <location value="199"/>
+    <location value="332"/>
+    <location value="396"/>
+    <location value="342"/>
+    ПОДРОБНЫЕ ИНСТРУКЦИИ К ОБЛАЧНЫМ КАССАМ
+  </text>
+  <picture>
+    <location value="401"/>
+    <location value="278"/>
+    <location value="455"/>
+    <location value="348"/>
+    <src uri="assets/image_000032_8996f8f99d9f73a3a5e2e58db916d51c8be25437573c3eb960bddc9d4eb4df88.png"/>
+  </picture>
+  <text>
+    <location value="76"/>
+    <location value="373"/>
+    <location value="444"/>
+    <location value="401"/>
+    Отправьте запрос на vendsupport@termt.com для загрузки конфигурации облачной кассы в терминал.
+  </text>
+  <text>
+    <location value="76"/>
+    <location value="414"/>
+    <location value="165"/>
+    <location value="426"/>
+    В заявке укажите:
+  </text>
+  <list>
+    <ldiv/>
+    <location value="111"/>
+    <location value="435"/>
+    <location value="239"/>
+    <location value="446"/>
+    серийные номера терминалов
+    <ldiv/>
+    <location value="111"/>
+    <location value="449"/>
+    <location value="308"/>
+    <location value="459"/>
+    данные кассы и организации (см. инструкцию)
+  </list>
+  <page_footer>
+    <layer value="furniture"/>
+    <location value="24"/>
+    <location value="482"/>
+    <location value="159"/>
+    <location value="492"/>
+<![CDATA[PROPRIETARY  &  CONFIDENTIAL]]>  </page_footer>
+  <page_footer>
+    <layer value="furniture"/>
+    <location value="469"/>
+    <location value="482"/>
+    <location value="481"/>
+    <location value="493"/>
+    18
+  </page_footer>
+  <page_break/>
+  <page_header>
+    <layer value="furniture"/>
+    <location value="438"/>
+    <location value="7"/>
+    <location value="507"/>
+    <location value="31"/>
+    ПОДКЛЮЧЕНИЕ И МОНТАЖ
+  </page_header>
+  <heading level="2">
+    <location value="30"/>
+    <location value="43"/>
+    <location value="270"/>
+    <location value="68"/>
+    Подключение и монтаж
+  </heading>
+  <text>
+    <location value="52"/>
+    <location value="104"/>
+    <location value="248"/>
+    <location value="116"/>
+    Для подключения к ТА вам понадобится
+  </text>
+  <picture>
+    <location value="20"/>
+    <location value="166"/>
+    <location value="231"/>
+    <location value="483"/>
+    <src uri="assets/image_000033_48a0faacb55e214c96518a4a879a17fdadaa7edc9af20568a6535f40ca49b185.png"/>
+  </picture>
+  <picture>
+    <location value="265"/>
+    <location value="192"/>
+    <location value="488"/>
+    <location value="391"/>
+    <src uri="assets/image_000034_a285e45fdb01d3f98530b2398103fbc391da888b83cbb4cd51a0072f23a9a2b8.png"/>
+  </picture>
+  <text>
+    <location value="194"/>
+    <location value="452"/>
+    <location value="463"/>
+    <location value="480"/>
+    Кабели подключения,  Ethernet и другие кабели вы можете приобрести дополнительно в ТТ (см. Комплектующие )
+  </text>
+  <page_footer>
+    <layer value="furniture"/>
+    <location value="26"/>
+    <location value="482"/>
+    <location value="158"/>
+    <location value="492"/>
+<![CDATA[PROPRIETARY  &  CONFIDENTIAL]]>  </page_footer>
+  <page_footer>
+    <layer value="furniture"/>
+    <location value="479"/>
+    <location value="479"/>
+    <location value="489"/>
+    <location value="491"/>
+    19
+  </page_footer>
+  <page_break/>
+  <page_header>
+    <layer value="furniture"/>
+    <location value="438"/>
+    <location value="7"/>
+    <location value="507"/>
+    <location value="31"/>
+    ПОДКЛЮЧЕНИЕ И МОНТАЖ
+  </page_header>
+  <heading level="2">
+    <location value="30"/>
+    <location value="43"/>
+    <location value="324"/>
+    <location value="68"/>
+    Информация о подключении
+  </heading>
+  <text>
+    <location value="52"/>
+    <location value="104"/>
+    <location value="476"/>
+    <location value="134"/>
+    Терминал Vendotek работает под управлением модема телеметрии или вендингового аппарата по протоколу VTK.
+  </text>
+  <text>
+    <location value="52"/>
+    <location value="140"/>
+    <location value="477"/>
+    <location value="171"/>
+    Для получения доступа к сети интернет терминал может быть настроен на использование одного из сетевых интерфейсов:
+  </text>
+  <list>
+    <ldiv>
+      <marker>●</marker>
+    </ldiv>
+    <location value="60"/>
+    <location value="177"/>
+    <location value="370"/>
+    <location value="189"/>
+    аппарат/модем телеметрии (через RS-232 по протоколу vtk),
+    <ldiv>
+      <marker>●</marker>
+    </ldiv>
+    <location value="60"/>
+    <location value="195"/>
+    <location value="103"/>
+    <location value="207"/>
+    Wi-Fi,
+    <ldiv>
+      <marker>●</marker>
+    </ldiv>
+    <location value="60"/>
+    <location value="213"/>
+    <location value="196"/>
+    <location value="226"/>
+    Ethernet (опционально),
+    <ldiv>
+      <marker>●</marker>
+    </ldiv>
+    <location value="60"/>
+    <location value="232"/>
+    <location value="196"/>
+    <location value="244"/>
+    SIM карта (Vendotek VN).
+  </list>
+  <picture>
+    <location value="65"/>
+    <location value="256"/>
+    <location value="214"/>
+    <location value="385"/>
+    <src uri="assets/image_000035_d7ce11c3f14238d4900493832d7ead4fe402a5763f912d90a88ac364a2579238.png"/>
+  </picture>
+  <text>
+    <location value="52"/>
+    <location value="413"/>
+    <location value="231"/>
+    <location value="441"/>
+    Доступ в интернет по WiFi/ Ethernet/ SIM
+  </text>
+  <picture>
+    <location value="272"/>
+    <location value="281"/>
+    <location value="459"/>
+    <location value="353"/>
+    <src uri="assets/image_000036_414dc144527dc05a08c4db9529766f09b3a26521972e7394383955e53bc813a0.png"/>
+  </picture>
+  <text>
+    <location value="307"/>
+    <location value="413"/>
+    <location value="425"/>
+    <location value="425"/>
+    Доступ в интернет по RS
+  </text>
+  <page_footer>
+    <layer value="furniture"/>
+    <location value="26"/>
+    <location value="482"/>
+    <location value="158"/>
+    <location value="491"/>
+<![CDATA[PROPRIETARY  &  CONFIDENTIAL]]>  </page_footer>
+  <page_footer>
+    <layer value="furniture"/>
+    <location value="477"/>
+    <location value="479"/>
+    <location value="490"/>
+    <location value="491"/>
+    20
+  </page_footer>
+  <page_break/>
+  <page_header>
+    <layer value="furniture"/>
+    <location value="438"/>
+    <location value="7"/>
+    <location value="507"/>
+    <location value="31"/>
+    ПОДКЛЮЧЕНИЕ И МОНТАЖ
+  </page_header>
+  <heading level="2">
+    <location value="30"/>
+    <location value="43"/>
+    <location value="260"/>
+    <location value="68"/>
+    Подключение к ТА (VN)
+  </heading>
+  <picture>
+    <location value="37"/>
+    <location value="99"/>
+    <location value="64"/>
+    <location value="134"/>
+    <src uri="assets/image_000037_1116e10a77a6224f90751d212abad5b2d6610658926364617bf6ff092beb69dd.png"/>
+  </picture>
+  <text>
+    <location value="75"/>
+    <location value="102"/>
+    <location value="286"/>
+    <location value="162"/>
+    Подключение терминала необходимо осуществлять только при выключенном автомате, подключать терминал на «горячую» нельзя!
+  </text>
+  <picture>
+    <location value="53"/>
+    <location value="197"/>
+    <location value="218"/>
+    <location value="432"/>
+    <src uri="assets/image_000038_0dab674a74a24132a755899155262d905a9b0fa2b5b4adaf4524b1ca5e436597.png"/>
+  </picture>
+  <picture>
+    <location value="326"/>
+    <location value="33"/>
+    <location value="496"/>
+    <location value="295"/>
+    <src uri="assets/image_000039_a575b8dea79cdd35c13e068651e81baa8c439403c6e7acefed12582411de8404.png"/>
+    <text>
+      <location value="419"/>
+      <location value="51"/>
+      <location value="442"/>
+      <location value="64"/>
+      ключ
+    </text>
+  </picture>
+  <text>
+    <location value="241"/>
+    <location value="298"/>
+    <location value="460"/>
+    <location value="347"/>
+    Подключите терминал кабелем к автомату в соответствии с используемым типом подключения (MDB/Executive).
+  </text>
+  <text>
+    <location value="241"/>
+    <location value="362"/>
+    <location value="430"/>
+    <location value="392"/>
+    Кабель подключения устанавливается в разъем VMC .
+  </text>
+  <text>
+    <location value="241"/>
+    <location value="408"/>
+    <location value="409"/>
+    <location value="438"/>
+    Положение ключа определяется по маркировке на плате.
+  </text>
+  <page_footer>
+    <layer value="furniture"/>
+    <location value="26"/>
+    <location value="482"/>
+    <location value="158"/>
+    <location value="492"/>
+<![CDATA[PROPRIETARY  &  CONFIDENTIAL]]>  </page_footer>
+  <page_footer>
+    <layer value="furniture"/>
+    <location value="479"/>
+    <location value="479"/>
+    <location value="488"/>
+    <location value="491"/>
+    21
+  </page_footer>
+  <page_break/>
+  <page_header>
+    <layer value="furniture"/>
+    <location value="438"/>
+    <location value="7"/>
+    <location value="507"/>
+    <location value="31"/>
+    ПОДКЛЮЧЕНИЕ И МОНТАЖ
+  </page_header>
+  <heading level="2">
+    <location value="30"/>
+    <location value="43"/>
+    <location value="255"/>
+    <location value="68"/>
+    Подключение к ТА (VL)
+  </heading>
+  <text>
+    <location value="51"/>
+    <location value="104"/>
+    <location value="222"/>
+    <location value="189"/>
+    В случае работы под управлением модема телеметрии все необходимые кабели  клиент получает от поставщика модема телеметрии
+  </text>
+  <picture>
+    <location value="50"/>
+    <location value="195"/>
+    <location value="191"/>
+    <location value="434"/>
+    <src uri="assets/image_000040_d53ed71051d5b586dccd166367ff735f3bc7afd599c2323813482aa62e7a4367.png"/>
+  </picture>
+  <picture>
+    <location value="313"/>
+    <location value="85"/>
+    <location value="468"/>
+    <location value="325"/>
+    <src uri="assets/image_000041_23748ad6a05f96b2432fc7042982eb54d5674987da4bd708fa231a568a18915b.png"/>
+    <text>
+      <location value="346"/>
+      <location value="314"/>
+      <location value="429"/>
+      <location value="327"/>
+      Кабель питания
+    </text>
+  </picture>
+  <text>
+    <location value="251"/>
+    <location value="383"/>
+    <location value="455"/>
+    <location value="432"/>
+    Подключите терминал кабелем к автомату в соответствии с используемым типом подключения.
+  </text>
+  <page_footer>
+    <layer value="furniture"/>
+    <location value="26"/>
+    <location value="482"/>
+    <location value="158"/>
+    <location value="492"/>
+<![CDATA[PROPRIETARY  &  CONFIDENTIAL PROPRIETARY  &  CONFIDENTIAL]]>  </page_footer>
+  <page_footer>
+    <layer value="furniture"/>
+    <location value="478"/>
+    <location value="479"/>
+    <location value="489"/>
+    <location value="491"/>
+    22 22
+  </page_footer>
+  <page_break/>
+  <page_header>
+    <layer value="furniture"/>
+    <location value="438"/>
+    <location value="7"/>
+    <location value="507"/>
+    <location value="31"/>
+    ПОДКЛЮЧЕНИЕ И МОНТАЖ
+  </page_header>
+  <heading level="2">
+    <location value="29"/>
+    <location value="43"/>
+    <location value="267"/>
+    <location value="68"/>
+    Варианты монтажа в ТА
+  </heading>
+  <heading level="2">
+    <location value="51"/>
+    <location value="96"/>
+    <location value="107"/>
+    <location value="109"/>
+    ВАРИАНТ 1
+  </heading>
+  <heading level="2">
+    <location value="51"/>
+    <location value="126"/>
+    <location value="263"/>
+    <location value="158"/>
+    Установка в свободный EVA-слот на автомате:
+  </heading>
+  <list class="ordered">
+    <ldiv>
+      <marker>1.</marker>
+    </ldiv>
+    <location value="49"/>
+    <location value="171"/>
+    <location value="263"/>
+    <location value="201"/>
+    Присоедините Vendotek  к EVA-рамке 4 шпильками M4x25 из комплекта.
+    <ldiv>
+      <marker>2.</marker>
+    </ldiv>
+    <location value="49"/>
+    <location value="217"/>
+    <location value="263"/>
+    <location value="266"/>
+    Установите Vendotek  в свободный EVAслот автомата и закрепите EVA-рамку гайками от автомата.
+  </list>
+  <picture>
+    <location value="282"/>
+    <location value="125"/>
+    <location value="464"/>
+    <location value="261"/>
+    <src uri="assets/image_000042_5e0fcbdd5d24667afc039c57e4205c7cdf6dc54f70e6c0ccb92a2617eeab64a9.png"/>
+  </picture>
+  <heading level="2">
+    <location value="51"/>
+    <location value="311"/>
+    <location value="458"/>
+    <location value="323"/>
+    БУДЬТЕ ВНИМАТЕЛЬНЫ И ОСТОРОЖНЫ ПРИ МОНТАЖЕ ТЕРМИНАЛА В АВТОМАТ!
+  </heading>
+  <picture>
+    <location value="36"/>
+    <location value="349"/>
+    <location value="63"/>
+    <location value="385"/>
+    <src uri="assets/image_000043_64bbc34d47448e79a1953f3f8e0eda6a4e15e4a7f2fe2014166b4f29c8c98459.png"/>
+  </picture>
+  <text>
+    <location value="71"/>
+    <location value="354"/>
+    <location value="459"/>
+    <location value="384"/>
+    При установке крепежных шпилек М4х40мм в установочные втулки терминала Vendotek степень затягивания должна составлять не более 0,4 НМ.
+  </text>
+  <text>
+    <location value="71"/>
+    <location value="409"/>
+    <location value="457"/>
+    <location value="439"/>
+    При толщине установочной поверхности порядка 1 мм, рекомендуемая длина винта составляет не более 25 мм и степень затягивания 0,5 НМ.
+  </text>
+  <page_footer>
+    <layer value="furniture"/>
+    <location value="26"/>
+    <location value="482"/>
+    <location value="158"/>
+    <location value="492"/>
+<![CDATA[PROPRIETARY  &  CONFIDENTIAL]]>  </page_footer>
+  <page_footer>
+    <layer value="furniture"/>
+    <location value="478"/>
+    <location value="479"/>
+    <location value="489"/>
+    <location value="491"/>
+    23
+  </page_footer>
+  <page_break/>
+  <page_header>
+    <layer value="furniture"/>
+    <location value="438"/>
+    <location value="7"/>
+    <location value="507"/>
+    <location value="31"/>
+    ПОДКЛЮЧЕНИЕ И МОНТАЖ
+  </page_header>
+  <heading level="2">
+    <location value="30"/>
+    <location value="43"/>
+    <location value="268"/>
+    <location value="68"/>
+    Варианты монтажа в ТА
+  </heading>
+  <heading level="2">
+    <location value="51"/>
+    <location value="96"/>
+    <location value="107"/>
+    <location value="109"/>
+    ВАРИАНТ 2
+  </heading>
+  <heading level="2">
+    <location value="50"/>
+    <location value="130"/>
+    <location value="412"/>
+    <location value="144"/>
+    Установка при отсутствии свободного EVA-слота на автомате:
+  </heading>
+  <list class="ordered">
+    <ldiv>
+      <marker>1.</marker>
+    </ldiv>
+    <location value="48"/>
+    <location value="157"/>
+    <location value="435"/>
+    <location value="188"/>
+    Используйте как шаблон EVA-рамку* из комплекта поставки терминала и просверлите отверстие 60 мм и 4 отверстия диаметром 5 мм для крепежа .
+    <ldiv>
+      <marker>2.</marker>
+    </ldiv>
+    <location value="48"/>
+    <location value="194"/>
+    <location value="221"/>
+    <location value="206"/>
+    Вверните шпильки в Vendotek.
+    <ldiv>
+      <marker>3.</marker>
+    </ldiv>
+    <location value="48"/>
+    <location value="212"/>
+    <location value="449"/>
+    <location value="225"/>
+    Установите терминал на панель автомата и закрепите четырьмя гайками М4.
+  </list>
+  <text>
+    <location value="50"/>
+    <location value="249"/>
+    <location value="463"/>
+    <location value="298"/>
+    *Либо распечатайте рамку посадочного места под терминал из    Приложения 1 данной инструкции. Обязательно убедитесь, что масштаб печати совпадает с приведённой на чертеже линейкой.
+  </text>
+  <heading level="2">
+    <location value="51"/>
+    <location value="325"/>
+    <location value="458"/>
+    <location value="338"/>
+    БУДЬТЕ ВНИМАТЕЛЬНЫ И ОСТОРОЖНЫ ПРИ МОНТАЖЕ ТЕРМИНАЛА В АВТОМАТ!
+  </heading>
+  <picture>
+    <location value="36"/>
+    <location value="367"/>
+    <location value="64"/>
+    <location value="402"/>
+    <src uri="assets/image_000044_803372eaa8e3c863955b4928d708f24b0ac286a450f3d6b44ae08a063fd5e92f.png"/>
+  </picture>
+  <text>
+    <location value="70"/>
+    <location value="367"/>
+    <location value="437"/>
+    <location value="416"/>
+    Не прилагайте чрезмерное усилие, могут быть повреждены внутренние элементы ! При повреждении внутренних элементов стоимость ремонта может составить до 2/3 стоимости терминала!
+  </text>
+  <page_footer>
+    <layer value="furniture"/>
+    <location value="26"/>
+    <location value="482"/>
+    <location value="158"/>
+    <location value="492"/>
+<![CDATA[PROPRIETARY  &  CONFIDENTIAL]]>  </page_footer>
+  <page_footer>
+    <layer value="furniture"/>
+    <location value="478"/>
+    <location value="479"/>
+    <location value="490"/>
+    <location value="491"/>
+    24
+  </page_footer>
+  <page_break/>
+  <page_header>
+    <layer value="furniture"/>
+    <location value="455"/>
+    <location value="14"/>
+    <location value="487"/>
+    <location value="24"/>
+    ЗАПУСК
+  </page_header>
+  <picture>
+    <location value="30"/>
+    <location value="41"/>
+    <location value="97"/>
+    <location value="73"/>
+    <src uri="assets/image_000045_c83a94336fed9d31cbdc0e151f58012045cdf287cea8c56b9d0267066ab49807.png"/>
+    <heading level="2">
+      <location value="30"/>
+      <location value="42"/>
+      <location value="97"/>
+      <location value="67"/>
+      Запуск
+    </heading>
+  </picture>
+  <heading level="2">
+    <location value="51"/>
+    <location value="118"/>
+    <location value="149"/>
+    <location value="130"/>
+    Включите автомат.
+  </heading>
+  <heading level="2">
+    <location value="51"/>
+    <location value="146"/>
+    <location value="245"/>
+    <location value="158"/>
+    Терминал запустится автоматически:
+  </heading>
+  <text>
+    <location value="51"/>
+    <location value="173"/>
+    <location value="278"/>
+    <location value="222"/>
+    через 3-5 секунд после подачи питания на терминале отобразится экран с информацией об этапах запуска.
+  </text>
+  <text>
+    <location value="51"/>
+    <location value="256"/>
+    <location value="286"/>
+    <location value="342"/>
+<![CDATA[После успешного запуска, терминал будет ожидать запрос IDL от аппарата/модема по спецификации протокола VTK, на экране при этом отобразится картинка 'Карты временно не принимаются' и загорятся все 4 светодиода.]]>  </text>
+  <picture>
+    <location value="295"/>
+    <location value="118"/>
+    <location value="460"/>
+    <location value="396"/>
+    <src uri="assets/image_000046_054af400467fadce5d1929f95928ce95978c8cf1c42901c32a0b85628ca6b230.png"/>
+  </picture>
+  <page_footer>
+    <layer value="furniture"/>
+    <location value="26"/>
+    <location value="482"/>
+    <location value="158"/>
+    <location value="491"/>
+<![CDATA[PROPRIETARY  &  CONFIDENTIAL]]>  </page_footer>
+  <page_footer>
+    <layer value="furniture"/>
+    <location value="478"/>
+    <location value="479"/>
+    <location value="489"/>
+    <location value="491"/>
+    25
+  </page_footer>
+  <page_break/>
+  <page_header>
+    <layer value="furniture"/>
+    <location value="455"/>
+    <location value="14"/>
+    <location value="487"/>
+    <location value="24"/>
+    ЗАПУСК
+  </page_header>
+  <picture>
+    <location value="31"/>
+    <location value="42"/>
+    <location value="98"/>
+    <location value="74"/>
+    <src uri="assets/image_000047_5606b7cd5b9a7af0ac5c314b38ee5bca1407b06102673f58c6ba76cc4c04fe7c.png"/>
+    <heading level="2">
+      <location value="31"/>
+      <location value="43"/>
+      <location value="98"/>
+      <location value="68"/>
+      Запуск
+    </heading>
+  </picture>
+  <text>
+    <location value="59"/>
+    <location value="109"/>
+    <location value="241"/>
+    <location value="177"/>
+    После успешного запуска терминала на экране отобразятся шестерёнка и надпись « КАРТЫ ВРЕМЕННО НЕ ПРИНИМАЮТСЯ ».
+  </text>
+  <text>
+    <location value="59"/>
+    <location value="193"/>
+    <location value="252"/>
+    <location value="297"/>
+    После активации терминала со стороны аппарата/модема телеметрии (перевода в IDLE mode) на экране отобразится сообщение « КОСНИТЕСЬ ЭКРАНА ДЛЯ ОПЛАТЫ КАРТОЙ » или «В ЫБЕРИТЕ ТОВАР »
+  </text>
+  <text>
+    <location value="59"/>
+    <location value="331"/>
+    <location value="231"/>
+    <location value="343"/>
+    Vendotek готов к приему платежей.
+  </text>
+  <picture>
+    <location value="295"/>
+    <location value="114"/>
+    <location value="460"/>
+    <location value="393"/>
+    <src uri="assets/image_000048_8aafec4dd14a69832d97dd56f77021b57468e50f3eb6abb05db2c4107da03a76.png"/>
+  </picture>
+  <page_footer>
+    <layer value="furniture"/>
+    <location value="26"/>
+    <location value="482"/>
+    <location value="158"/>
+    <location value="491"/>
+<![CDATA[PROPRIETARY  &  CONFIDENTIAL]]>  </page_footer>
+  <page_footer>
+    <layer value="furniture"/>
+    <location value="478"/>
+    <location value="479"/>
+    <location value="490"/>
+    <location value="491"/>
+    26
+  </page_footer>
+  <page_break/>
+  <page_header>
+    <layer value="furniture"/>
+    <location value="455"/>
+    <location value="14"/>
+    <location value="487"/>
+    <location value="24"/>
+    ЗАПУСК
+  </page_header>
+  <heading level="2">
+    <location value="29"/>
+    <location value="43"/>
+    <location value="346"/>
+    <location value="68"/>
+    Возможные ошибки при старте
+  </heading>
+  <picture>
+    <location value="41"/>
+    <location value="110"/>
+    <location value="487"/>
+    <location value="421"/>
+    <src uri="assets/image_000049_7e1595f2b063747a0376b947aeef0b7146fd11d864e435096436e8fb0abcd492.png"/>
+    <text>
+      <location value="357"/>
+      <location value="132"/>
+      <location value="477"/>
+      <location value="156"/>
+      терминал ожидает команды начала сессии IDL от ТА
+    </text>
+    <text>
+      <location value="357"/>
+      <location value="190"/>
+      <location value="487"/>
+      <location value="228"/>
+      на терминале отсутствует конфигурация для корректной работы
+    </text>
+    <text>
+      <location value="357"/>
+      <location value="249"/>
+      <location value="488"/>
+      <location value="287"/>
+      безналичная оплата временно не принимается, оплатите наличными
+    </text>
+    <text>
+      <location value="357"/>
+      <location value="313"/>
+      <location value="493"/>
+      <location value="351"/>
+      при первом запуске терминал ожидает команды  IDL от ТА для загрузки конфигурации
+    </text>
+    <text>
+      <location value="357"/>
+      <location value="381"/>
+      <location value="486"/>
+      <location value="405"/>
+      при выбранном канале связи modem  нет связи по sim карте
+    </text>
+  </picture>
+  <text>
+    <location value="52"/>
+    <location value="444"/>
+    <location value="439"/>
+    <location value="470"/>
+    Если при заказе терминала не была указана необходимая конфигурация ПО, то необходимо оформить соответствующий запрос на vendsupport@termt.com.
+  </text>
+  <page_footer>
+    <layer value="furniture"/>
+    <location value="26"/>
+    <location value="482"/>
+    <location value="158"/>
+    <location value="491"/>
+<![CDATA[PROPRIETARY  &  CONFIDENTIAL]]>  </page_footer>
+  <page_footer>
+    <layer value="furniture"/>
+    <location value="478"/>
+    <location value="479"/>
+    <location value="490"/>
+    <location value="491"/>
+    27
+  </page_footer>
+  <page_break/>
+  <page_header>
+    <layer value="furniture"/>
+    <location value="445"/>
+    <location value="7"/>
+    <location value="500"/>
+    <location value="31"/>
+    МЕНЮ ТЕРМИНАЛА
+  </page_header>
+  <heading level="2">
+    <location value="30"/>
+    <location value="43"/>
+    <location value="204"/>
+    <location value="68"/>
+    Меню терминала
+  </heading>
+  <heading level="2">
+    <location value="52"/>
+    <location value="100"/>
+    <location value="410"/>
+    <location value="112"/>
+    ПОЛЬЗОВАТЕЛЬСКИЙ ИНТЕРФЕЙС ТЕРМИНАЛА ВКЛЮЧАЕТ ДВА МЕНЮ
+  </heading>
+  <heading level="2">
+    <location value="53"/>
+    <location value="129"/>
+    <location value="127"/>
+    <location value="141"/>
+    Меню техника
+  </heading>
+  <list>
+    <ldiv/>
+    <location value="53"/>
+    <location value="158"/>
+    <location value="264"/>
+    <location value="168"/>
+    Настройка канала связи, проверка уровня сигнала
+    <ldiv/>
+    <location value="53"/>
+    <location value="178"/>
+    <location value="192"/>
+    <location value="189"/>
+    Обновление ПО и конфигурации
+    <ldiv/>
+    <location value="53"/>
+    <location value="199"/>
+    <location value="118"/>
+    <location value="209"/>
+    Сброс настроек
+    <ldiv/>
+    <location value="53"/>
+    <location value="219"/>
+    <location value="119"/>
+    <location value="230"/>
+    Выгрузка логов
+  </list>
+  <picture>
+    <location value="52"/>
+    <location value="263"/>
+    <location value="123"/>
+    <location value="360"/>
+    <src uri="assets/image_000050_9fd9ee8e9a631c4c0fab0e8709051c383c8ce80a7f5755ef09d0fa1fe11247a1.png"/>
+  </picture>
+  <heading level="2">
+    <location value="290"/>
+    <location value="129"/>
+    <location value="377"/>
+    <location value="141"/>
+    Меню оператора
+  </heading>
+  <list>
+    <ldiv/>
+    <location value="290"/>
+    <location value="158"/>
+    <location value="405"/>
+    <location value="168"/>
+    Информация об терминале
+    <ldiv/>
+    <location value="290"/>
+    <location value="178"/>
+    <location value="426"/>
+    <location value="189"/>
+    Обновление ПО и конфигурации
+    <ldiv/>
+    <location value="290"/>
+    <location value="199"/>
+    <location value="384"/>
+    <location value="209"/>
+    Банковские настройки
+    <ldiv/>
+    <location value="290"/>
+    <location value="219"/>
+    <location value="377"/>
+    <location value="230"/>
+    Языковые настройки
+  </list>
+  <picture>
+    <location value="279"/>
+    <location value="263"/>
+    <location value="351"/>
+    <location value="360"/>
+    <src uri="assets/image_000051_19716fb422df12c708b142310f5d68ced0fee19e97419e22e0e2a00108db2cb4.png"/>
+  </picture>
+  <text>
+    <location value="361"/>
+    <location value="268"/>
+    <location value="474"/>
+    <location value="311"/>
+    терминал полностью загрузился, коснуться экрана одновременно двумя пальцами, удерживать 6 секунд
+  </text>
+  <picture>
+    <location value="362"/>
+    <location value="324"/>
+    <location value="441"/>
+    <location value="341"/>
+    <src uri="assets/image_000052_d154da77f010a9e1b2eeb854cad6f38f564e0428a4092fdba0d82d2de052a756.png"/>
+    <text>
+      <location value="371"/>
+      <location value="330"/>
+      <location value="441"/>
+      <location value="338"/>
+      видео входа в меню
+    </text>
+  </picture>
+  <picture>
+    <location value="361"/>
+    <location value="348"/>
+    <location value="403"/>
+    <location value="405"/>
+    <src uri="assets/image_000053_b48fb031aa89be0af5c86781372fb8fc64232a7d6bf8814efb7a8dd47b6c525b.png"/>
+  </picture>
+  <text>
+    <location value="132"/>
+    <location value="271"/>
+    <location value="235"/>
+    <location value="314"/>
+    при старте терминала 3 раза коснуться экрана (также возможен доступ по Wi-Fi c мобильного телефона)
+  </text>
+  <picture>
+    <location value="132"/>
+    <location value="325"/>
+    <location value="210"/>
+    <location value="341"/>
+    <src uri="assets/image_000054_7ff38f0e14262fa0b8392b777137294bb14ee21f29736609552f2c71122cd8eb.png"/>
+    <text>
+      <location value="141"/>
+      <location value="330"/>
+      <location value="210"/>
+      <location value="338"/>
+      видео входа в меню
+    </text>
+  </picture>
+  <picture>
+    <location value="134"/>
+    <location value="351"/>
+    <location value="173"/>
+    <location value="403"/>
+    <src uri="assets/image_000055_2dca1cb4655f18612ed8029bc39d9646b55c390763aa807f42b1d3d8c02a45d2.png"/>
+  </picture>
+  <text>
+    <location value="53"/>
+    <location value="429"/>
+    <location value="419"/>
+    <location value="467"/>
+    Для входа в некоторые разделы меню потребуется ввод пароля . Для получения пароля отправьте соответствующий запрос на vendsupport@termt.com. По запросу пароли могут меняться .
+  </text>
+  <page_footer>
+    <layer value="furniture"/>
+    <location value="26"/>
+    <location value="482"/>
+    <location value="158"/>
+    <location value="492"/>
+<![CDATA[PROPRIETARY  &  CONFIDENTIAL]]>  </page_footer>
+  <page_footer>
+    <layer value="furniture"/>
+    <location value="478"/>
+    <location value="479"/>
+    <location value="490"/>
+    <location value="491"/>
+    28
+  </page_footer>
+  <page_break/>
+  <page_header>
+    <layer value="furniture"/>
+    <location value="446"/>
+    <location value="7"/>
+    <location value="500"/>
+    <location value="31"/>
+    МЕНЮ ТЕРМИНАЛА
+  </page_header>
+  <heading level="2">
+    <location value="30"/>
+    <location value="43"/>
+    <location value="171"/>
+    <location value="68"/>
+    Меню по Wi-Fi
+  </heading>
+  <picture>
+    <location value="33"/>
+    <location value="123"/>
+    <location value="125"/>
+    <location value="280"/>
+    <src uri="assets/image_000056_f66b21502595a26c7886c4ef5ccb344ffcc7ba14643b49ae2a9d4b7686681b73.png"/>
+  </picture>
+  <picture>
+    <location value="414"/>
+    <location value="89"/>
+    <location value="486"/>
+    <location value="278"/>
+    <src uri="assets/image_000057_c5809d7488e2fb68e4e3b722244453e9993ab49dae76c7a5558bda1e61350952.png"/>
+  </picture>
+  <picture>
+    <location value="164"/>
+    <location value="122"/>
+    <location value="281"/>
+    <location value="277"/>
+    <src uri="assets/image_000058_4e76ec4b39e90480011d3b6ec592a437e2dce6d41ffd25a9cfb533bd0b083a1f.png"/>
+  </picture>
+  <picture>
+    <location value="32"/>
+    <location value="293"/>
+    <location value="500"/>
+    <location value="406"/>
+    <src uri="assets/image_000059_eb15c49ff16eee83adb75f4dea27c3866b15f6a4070fe0832fa004d49b739348.png"/>
+  </picture>
+  <text>
+    <location value="40"/>
+    <location value="437"/>
+    <location value="410"/>
+    <location value="449"/>
+    *Для получения пароля отправьте соответствующий запрос на vendsupport@termt.com.
+  </text>
+  <page_footer>
+    <layer value="furniture"/>
+    <location value="26"/>
+    <location value="482"/>
+    <location value="158"/>
+    <location value="491"/>
+<![CDATA[PROPRIETARY  &  CONFIDENTIAL]]>  </page_footer>
+  <page_footer>
+    <layer value="furniture"/>
+    <location value="478"/>
+    <location value="479"/>
+    <location value="490"/>
+    <location value="491"/>
+    29
+  </page_footer>
+  <page_break/>
+  <page_header>
+    <layer value="furniture"/>
+    <location value="446"/>
+    <location value="7"/>
+    <location value="500"/>
+    <location value="31"/>
+    МЕНЮ ТЕРМИНАЛА
+  </page_header>
+  <heading level="2">
+    <location value="30"/>
+    <location value="43"/>
+    <location value="178"/>
+    <location value="68"/>
+    Меню по Wi-Fi
+  </heading>
+  <picture>
+    <location value="1"/>
+    <location value="85"/>
+    <location value="207"/>
+    <location value="388"/>
+    <src uri="assets/image_000060_145470bcedeb35383d77c4eeaf057689dc183f397a4e4a8783920d056b51be43.png"/>
+  </picture>
+  <picture>
+    <location value="359"/>
+    <location value="151"/>
+    <location value="507"/>
+    <location value="263"/>
+    <src uri="assets/image_000061_a7e874b2b1a6a7d28e862493b77a52ce70c13dfd762d084b4a11d1d150c8ff66.png"/>
+  </picture>
+  <picture>
+    <location value="418"/>
+    <location value="372"/>
+    <location value="464"/>
+    <location value="433"/>
+    <src uri="assets/image_000062_a558f142677c3cb567c3c4de884849116595bc70f892035f452468617389d32a.png"/>
+  </picture>
+  <picture>
+    <location value="246"/>
+    <location value="86"/>
+    <location value="361"/>
+    <location value="390"/>
+    <src uri="assets/image_000063_7898987e9fb48a58c2741d20fa1e64db6fd1294e17f59c988a577d58a723be46.png"/>
+  </picture>
+  <picture>
+    <location value="343"/>
+    <location value="443"/>
+    <location value="463"/>
+    <location value="459"/>
+    <src uri="assets/image_000064_938fd99d0906587c333c999e019ff3391c9489cee1efa15ade276ad68825e8da.png"/>
+    <text>
+      <location value="355"/>
+      <location value="447"/>
+      <location value="467"/>
+      <location value="457"/>
+      видео входа в меню по Wi-Fi
+    </text>
+  </picture>
+  <page_footer>
+    <layer value="furniture"/>
+    <location value="26"/>
+    <location value="482"/>
+    <location value="160"/>
+    <location value="492"/>
+<![CDATA[PROPRIETARY  &  CONFIDENTIAL]]>  </page_footer>
+  <page_footer>
+    <layer value="furniture"/>
+    <location value="483"/>
+    <location value="480"/>
+    <location value="492"/>
+    <location value="490"/>
+    30
+  </page_footer>
+  <page_break/>
+  <page_header>
+    <layer value="furniture"/>
+    <location value="446"/>
+    <location value="7"/>
+    <location value="500"/>
+    <location value="31"/>
+    МЕНЮ ТЕРМИНАЛА
+  </page_header>
+  <heading level="2">
+    <location value="30"/>
+    <location value="43"/>
+    <location value="179"/>
+    <location value="68"/>
+    Меню техника
+  </heading>
+  <picture>
+    <location value="29"/>
+    <location value="123"/>
+    <location value="484"/>
+    <location value="435"/>
+    <src uri="assets/image_000065_da56e653fa507718fdd179a45feaf30740eb8b523e122696dae127febcd47285.png"/>
+    <heading level="2">
+      <location value="229"/>
+      <location value="157"/>
+      <location value="315"/>
+      <location value="168"/>
+      ГЛАВНОЕ МЕНЮ / …
+    </heading>
+    <text>
+      <location value="229"/>
+      <location value="202"/>
+      <location value="256"/>
+      <location value="212"/>
+      меню
+    </text>
+    <text>
+      <location value="256"/>
+      <location value="202"/>
+      <location value="321"/>
+      <location value="212"/>
+      с информацией
+    </text>
+    <text>
+      <location value="321"/>
+      <location value="202"/>
+      <location value="379"/>
+      <location value="212"/>
+      о терминале
+    </text>
+    <text>
+      <location value="229"/>
+      <location value="223"/>
+      <location value="448"/>
+      <location value="234"/>
+      обновление программных компонентов и их версий
+    </text>
+    <text>
+      <location value="229"/>
+      <location value="243"/>
+      <location value="475"/>
+      <location value="281"/>
+      обновление параметров конфигурации, необходимых для корректной работы с автоматом, а также для получения/обновления банковских настроек
+    </text>
+    <heading level="2">
+      <location value="229"/>
+      <location value="297"/>
+      <location value="485"/>
+      <location value="307"/>
+      выбор канала связи для обновления ПО и конфигурации:
+    </heading>
+    <text>
+      <location value="238"/>
+      <location value="310"/>
+      <location value="429"/>
+      <location value="334"/>
+      Default - использовать текущий канал связи Wfi, Ethernet или Modem
+    </text>
+    <text>
+      <location value="228"/>
+      <location value="363"/>
+      <location value="448"/>
+      <location value="374"/>
+      выгрузка системных логов с терминала на сервер ТТ
+    </text>
+    <text>
+      <location value="228"/>
+      <location value="419"/>
+      <location value="387"/>
+      <location value="430"/>
+      выполняется перезагрузка терминала
+    </text>
+    <text>
+      <location value="229"/>
+      <location value="391"/>
+      <location value="303"/>
+      <location value="402"/>
+      меню настройки
+    </text>
+    <text>
+      <location value="303"/>
+      <location value="391"/>
+      <location value="403"/>
+      <location value="402"/>
+      параметров терминала
+    </text>
+  </picture>
+  <picture>
+    <location value="330"/>
+    <location value="32"/>
+    <location value="416"/>
+    <location value="146"/>
+    <src uri="assets/image_000066_ad20089b400cf1f657688ea645f0f17f173b2b9f11073db338bce93fdc5cbfde.png"/>
+  </picture>
+  <page_footer>
+    <layer value="furniture"/>
+    <location value="26"/>
+    <location value="482"/>
+    <location value="160"/>
+    <location value="492"/>
+<![CDATA[PROPRIETARY  &  CONFIDENTIAL]]>  </page_footer>
+  <page_footer>
+    <layer value="furniture"/>
+    <location value="483"/>
+    <location value="480"/>
+    <location value="492"/>
+    <location value="490"/>
+    31
+  </page_footer>
+  <page_break/>
+  <page_header>
+    <layer value="furniture"/>
+    <location value="446"/>
+    <location value="7"/>
+    <location value="500"/>
+    <location value="31"/>
+    МЕНЮ ТЕРМИНАЛА
+  </page_header>
+  <heading level="2">
+    <location value="29"/>
+    <location value="43"/>
+    <location value="178"/>
+    <location value="68"/>
+    Меню техника
+  </heading>
+  <picture>
+    <location value="29"/>
+    <location value="124"/>
+    <location value="467"/>
+    <location value="434"/>
+    <src uri="assets/image_000067_4fbb35b84e0b34fc4da582e87c217d0356d51b17b2fc744ab078f544ad607c9a.png"/>
+    <heading level="2">
+      <location value="228"/>
+      <location value="157"/>
+      <location value="344"/>
+      <location value="168"/>
+      … /МЕНЮ «О ТЕРМИНАЛЕ»
+    </heading>
+    <text>
+      <location value="229"/>
+      <location value="342"/>
+      <location value="266"/>
+      <location value="352"/>
+      имя сети
+    </text>
+    <text>
+      <location value="229"/>
+      <location value="365"/>
+      <location value="367"/>
+      <location value="376"/>
+      баланс - узнать баланс sim карты
+    </text>
+    <text>
+      <location value="229"/>
+      <location value="379"/>
+      <location value="403"/>
+      <location value="389"/>
+      номер телефона - узнать номер телефона
+    </text>
+    <text>
+      <location value="229"/>
+      <location value="192"/>
+      <location value="347"/>
+      <location value="203"/>
+      серийный номер терминала
+    </text>
+    <text>
+      <location value="229"/>
+      <location value="217"/>
+      <location value="312"/>
+      <location value="228"/>
+      текущая версия ПО
+    </text>
+    <text>
+      <location value="229"/>
+      <location value="256"/>
+      <location value="392"/>
+      <location value="266"/>
+      банковский идентификатор терминала
+    </text>
+    <text>
+      <location value="229"/>
+      <location value="277"/>
+      <location value="467"/>
+      <location value="288"/>
+      текущий канал, по которому терминал выходит на связь
+    </text>
+    <list>
+      <ldiv>
+        <marker>•</marker>
+      </ldiv>
+      <location value="236"/>
+      <location value="292"/>
+      <location value="332"/>
+      <location value="302"/>
+      wifi - связь по Wi-Fi
+    </list>
+    <list>
+      <ldiv>
+        <marker>•</marker>
+      </ldiv>
+      <location value="236"/>
+      <location value="305"/>
+      <location value="341"/>
+      <location value="316"/>
+      eth - связь по Ethernet
+    </list>
+    <list>
+      <ldiv>
+        <marker>•</marker>
+      </ldiv>
+      <location value="236"/>
+      <location value="319"/>
+      <location value="330"/>
+      <location value="329"/>
+      sim - связь по GSM
+    </list>
+  </picture>
+  <page_footer>
+    <layer value="furniture"/>
+    <location value="26"/>
+    <location value="482"/>
+    <location value="158"/>
+    <location value="492"/>
+<![CDATA[PROPRIETARY  &  CONFIDENTIAL]]>  </page_footer>
+  <page_footer>
+    <layer value="furniture"/>
+    <location value="483"/>
+    <location value="480"/>
+    <location value="492"/>
+    <location value="490"/>
+    32
+  </page_footer>
+  <page_break/>
+  <page_header>
+    <layer value="furniture"/>
+    <location value="446"/>
+    <location value="7"/>
+    <location value="500"/>
+    <location value="31"/>
+    МЕНЮ ТЕРМИНАЛА
+  </page_header>
+  <heading level="2">
+    <location value="29"/>
+    <location value="43"/>
+    <location value="177"/>
+    <location value="68"/>
+    Меню техника
+  </heading>
+  <picture>
+    <location value="29"/>
+    <location value="124"/>
+    <location value="491"/>
+    <location value="434"/>
+    <src uri="assets/image_000068_7b4c8fb1e7dd14d7e922f660f8e1150f109b2e0529b33f84cab8d37d45d7726d.png"/>
+    <heading level="2">
+      <location value="225"/>
+      <location value="156"/>
+      <location value="333"/>
+      <location value="167"/>
+      … /МЕНЮ «НАСТРОЙКИ»
+    </heading>
+    <text>
+      <location value="228"/>
+      <location value="198"/>
+      <location value="490"/>
+      <location value="209"/>
+      настройка основного канала связи (Wi-Fi, Ethernet или Modem)
+    </text>
+    <text>
+      <location value="228"/>
+      <location value="219"/>
+      <location value="427"/>
+      <location value="230"/>
+      восстановление заводских настроек терминала
+    </text>
+    <text>
+      <location value="228"/>
+      <location value="244"/>
+      <location value="454"/>
+      <location value="254"/>
+      сброс настроек, выставленных вручную на терминале
+    </text>
+    <text>
+      <location value="229"/>
+      <location value="270"/>
+      <location value="480"/>
+      <location value="282"/>
+      загрузка пакета ПО для выявления проблем с терминалом*
+    </text>
+    <text>
+      <location value="228"/>
+      <location value="297"/>
+      <location value="352"/>
+      <location value="308"/>
+      прошивка коммодуля EG915*
+    </text>
+    <text>
+      <location value="228"/>
+      <location value="324"/>
+      <location value="406"/>
+      <location value="335"/>
+      добавить терминал в личный кабинет TMS
+    </text>
+    <text>
+      <location value="228"/>
+      <location value="350"/>
+      <location value="427"/>
+      <location value="360"/>
+      изменить канал обмена по VTK: TCP или  RS-232
+    </text>
+  </picture>
+  <text>
+    <location value="157"/>
+    <location value="454"/>
+    <location value="468"/>
+    <location value="465"/>
+    *выполнять только по согласованию со службой техподдержки Vendotek
+  </text>
+  <picture>
+    <location value="469"/>
+    <location value="446"/>
+    <location value="487"/>
+    <location value="469"/>
+    <src uri="assets/image_000069_b28e624f58263bdc0c6b9c23ec10eec34f6f6193ad260afdbc1e402298af232f.png"/>
+  </picture>
+  <page_footer>
+    <layer value="furniture"/>
+    <location value="26"/>
+    <location value="482"/>
+    <location value="162"/>
+    <location value="492"/>
+<![CDATA[PROPRIETARY  &  CONFIDENTIAL]]>  </page_footer>
+  <page_footer>
+    <layer value="furniture"/>
+    <location value="483"/>
+    <location value="480"/>
+    <location value="492"/>
+    <location value="490"/>
+    33
+  </page_footer>
+  <page_break/>
+  <page_header>
+    <layer value="furniture"/>
+    <location value="446"/>
+    <location value="7"/>
+    <location value="500"/>
+    <location value="31"/>
+    МЕНЮ ТЕРМИНАЛА
+  </page_header>
+  <heading level="2">
+    <location value="30"/>
+    <location value="43"/>
+    <location value="273"/>
+    <location value="68"/>
+    Настройка канала связи
+  </heading>
+  <text>
+    <location value="53"/>
+    <location value="97"/>
+    <location value="418"/>
+    <location value="109"/>
+    Vendotek VN может получать доступ в интернет по GSM, Wi-Fi или Ethernet.
+  </text>
+  <text>
+    <location value="53"/>
+    <location value="132"/>
+    <location value="383"/>
+    <location value="144"/>
+    По умолчанию Vendotek VN настроен на доступ в Интернет по GSM.
+  </text>
+  <heading level="2">
+    <location value="53"/>
+    <location value="171"/>
+    <location value="225"/>
+    <location value="183"/>
+    ДЛЯ НАСТРОЙКИ КАНАЛА СВЯЗИ:
+  </heading>
+  <list class="ordered">
+    <ldiv>
+      <marker>1.</marker>
+    </ldiv>
+    <location value="58"/>
+    <location value="199"/>
+    <location value="206"/>
+    <location value="211"/>
+    Войдите в меню техника .
+    <ldiv>
+      <marker>2.</marker>
+    </ldiv>
+    <location value="58"/>
+    <location value="217"/>
+    <location value="372"/>
+    <location value="266"/>
+    Перейдите в Настройки и введите пароль от меню техника (пароль необходимо запросить в службе технической поддержки vendsupport@termt.com)
+    <ldiv>
+      <marker>3.</marker>
+    </ldiv>
+    <location value="58"/>
+    <location value="272"/>
+    <location value="226"/>
+    <location value="284"/>
+    Перейдите в Настройки сети .
+    <ldiv>
+      <marker>4.</marker>
+    </ldiv>
+    <location value="58"/>
+    <location value="290"/>
+    <location value="370"/>
+    <location value="303"/>
+    В выпадающем списке выберите необходимый канал связи
+    <ldiv>
+      <marker>5.</marker>
+    </ldiv>
+    <location value="58"/>
+    <location value="309"/>
+    <location value="343"/>
+    <location value="339"/>
+    Нажмите на кнопку «Тест связи». Терминал выполнит проверку интернет-соединения:
+    <ldiv>
+      <marker>·</marker>
+    </ldiv>
+    <location value="82"/>
+    <location value="345"/>
+    <location value="381"/>
+    <location value="373"/>
+    появление сообщения «Успех» и кнопки «Продолжить» соединение в порядке;
+    <ldiv>
+      <marker>·</marker>
+    </ldiv>
+    <location value="82"/>
+    <location value="377"/>
+    <location value="377"/>
+    <location value="405"/>
+    появление сообщения «Ошибка настроек сети» и кнопки «Продолжить» - соединение неуспешно.
+    <ldiv>
+      <marker>6.</marker>
+    </ldiv>
+    <location value="58"/>
+    <location value="409"/>
+    <location value="334"/>
+    <location value="440"/>
+    Нажмите кнопку «Сохранить». Появится сообщение «Настройки сохранены» и кнопка «Продолжить».
+  </list>
+  <picture>
+    <location value="394"/>
+    <location value="169"/>
+    <location value="461"/>
+    <location value="258"/>
+    <src uri="assets/image_000070_f84f08c7e48cd3b8f32f3a9ab9af7b8b0f83ae0c0cc224097b0cd07f9c5bf4d6.png"/>
+  </picture>
+  <text>
+    <location value="404"/>
+    <location value="280"/>
+    <location value="450"/>
+    <location value="311"/>
+    Видеоинструкции по настройке
+  </text>
+  <text>
+    <location value="404"/>
+    <location value="314"/>
+    <location value="449"/>
+    <location value="322"/>
+    канала связи
+  </text>
+  <picture>
+    <location value="402"/>
+    <location value="333"/>
+    <location value="454"/>
+    <location value="402"/>
+    <src uri="assets/image_000071_746acc37e7541178f6093f8dea99070fd0f9a68e6d8eb812ca77699d2df6bc24.png"/>
+  </picture>
+  <text>
+    <location value="412"/>
+    <location value="416"/>
+    <location value="417"/>
+    <location value="426"/>
+    ●
+  </text>
+  <heading level="2">
+    <href uri="https://drive.google.com/file/d/1Yc4aPISh1D-lgcrMclyMSH91kjkRaxuJ/view?usp=drive_link"/>
+    <location value="422"/>
+    <location value="416"/>
+    <location value="439"/>
+    <location value="426"/>
+    Wi-Fi
+  </heading>
+  <list>
+    <ldiv>
+      <marker>●</marker>
+    </ldiv>
+    <href uri="https://drive.google.com/file/d/1-QUrPEacqBrd4F7Nsx2ZYIhMt4Y4w5rb/view?usp=drive_link"/>
+    <location value="412"/>
+    <location value="429"/>
+    <location value="450"/>
+    <location value="438"/>
+    Modem
+    <ldiv>
+      <marker>●</marker>
+    </ldiv>
+    <href uri="https://drive.google.com/file/d/1sBF0cKgBDGPqPkv2Lqax7VnjR6Vzr2tZ/view?usp=drive_link"/>
+    <location value="412"/>
+    <location value="441"/>
+    <location value="455"/>
+    <location value="451"/>
+    Ethernet
+  </list>
+  <page_footer>
+    <layer value="furniture"/>
+    <location value="26"/>
+    <location value="482"/>
+    <location value="158"/>
+    <location value="492"/>
+<![CDATA[PROPRIETARY  &  CONFIDENTIAL]]>  </page_footer>
+  <page_footer>
+    <layer value="furniture"/>
+    <location value="477"/>
+    <location value="479"/>
+    <location value="490"/>
+    <location value="491"/>
+    34
+  </page_footer>
+  <page_break/>
+  <page_header>
+    <layer value="furniture"/>
+    <location value="446"/>
+    <location value="7"/>
+    <location value="500"/>
+    <location value="31"/>
+    МЕНЮ ТЕРМИНАЛА
+  </page_header>
+  <heading level="2">
+    <location value="30"/>
+    <location value="15"/>
+    <location value="411"/>
+    <location value="68"/>
+    Настройка канала связи. Modem (sim) для Vendotek VN
+  </heading>
+  <picture>
+    <location value="47"/>
+    <location value="117"/>
+    <location value="167"/>
+    <location value="319"/>
+    <src uri="assets/image_000072_94cba956e2d21107fe54962d4dc56d0c91ccdfda7c9acfb05f31879f8118ec33.png"/>
+  </picture>
+  <text>
+    <location value="48"/>
+    <location value="333"/>
+    <location value="259"/>
+    <location value="393"/>
+    выбрать «CUSTOM» и самостоятельно указать протокол аутентификации, а также ввести следующие параметры (необходимо уточнить
+  </text>
+  <text>
+    <location value="48"/>
+    <location value="396"/>
+    <location value="238"/>
+    <location value="408"/>
+    у оператора используемой sim-карты):
+  </text>
+  <list>
+    <ldiv>
+      <marker>●</marker>
+    </ldiv>
+    <location value="50"/>
+    <location value="412"/>
+    <location value="222"/>
+    <location value="425"/>
+    username - имя пользователя;
+    <ldiv>
+      <marker>●</marker>
+    </ldiv>
+    <location value="50"/>
+    <location value="428"/>
+    <location value="164"/>
+    <location value="440"/>
+    password - пароль;
+    <ldiv>
+      <marker>●</marker>
+    </ldiv>
+    <location value="50"/>
+    <location value="444"/>
+    <location value="250"/>
+    <location value="472"/>
+    apn - идентификатор сети пакетной передачи данных.
+  </list>
+  <picture>
+    <location value="273"/>
+    <location value="118"/>
+    <location value="393"/>
+    <location value="319"/>
+    <src uri="assets/image_000073_ac44cd23aeb23724780fe4cd3f2a80d6cb8abc377467333f740b6dd5dfcf7739.png"/>
+  </picture>
+  <text>
+    <location value="274"/>
+    <location value="333"/>
+    <location value="431"/>
+    <location value="377"/>
+    в выпадающем списке выбрать один из стандартных профилей (например, MTS, BeeLine и тд)
+  </text>
+  <page_footer>
+    <layer value="furniture"/>
+    <location value="26"/>
+    <location value="485"/>
+    <location value="158"/>
+    <location value="494"/>
+<![CDATA[PROPRIETARY  &  CONFIDENTIAL]]>  </page_footer>
+  <page_footer>
+    <layer value="furniture"/>
+    <location value="480"/>
+    <location value="482"/>
+    <location value="491"/>
+    <location value="493"/>
+    35
+  </page_footer>
+  <page_break/>
+  <page_header>
+    <layer value="furniture"/>
+    <location value="446"/>
+    <location value="7"/>
+    <location value="500"/>
+    <location value="31"/>
+    МЕНЮ ТЕРМИНАЛА
+  </page_header>
+  <heading level="2">
+    <location value="30"/>
+    <location value="43"/>
+    <location value="331"/>
+    <location value="68"/>
+    Настройка канала связи. Wi-Fi
+  </heading>
+  <picture>
+    <location value="48"/>
+    <location value="118"/>
+    <location value="167"/>
+    <location value="319"/>
+    <src uri="assets/image_000074_94d0ebe7e081c8930138c5ed0d5919233befa229ccf7d56078a67d9b5d8a9d7f.png"/>
+  </picture>
+  <text>
+    <location value="50"/>
+    <location value="332"/>
+    <location value="233"/>
+    <location value="408"/>
+    Wifi: терминал выполнит поиск доступных для подключения сетей и предложит варианты в выпадающем списке. После выбора точки доступа введите пароль в поле « password »
+  </text>
+  <picture>
+    <location value="273"/>
+    <location value="118"/>
+    <location value="393"/>
+    <location value="319"/>
+    <src uri="assets/image_000075_673cbd60e39cbd12a00cff85ca9d722d6918ab1999ad0a0644057212a3fa0b6a.png"/>
+  </picture>
+  <text>
+    <location value="275"/>
+    <location value="332"/>
+    <location value="476"/>
+    <location value="360"/>
+    Wifi Manual: вручную ввести параметры точки доступа:
+  </text>
+  <list>
+    <ldiv>
+      <marker>●</marker>
+    </ldiv>
+    <location value="282"/>
+    <location value="364"/>
+    <location value="483"/>
+    <location value="392"/>
+    ssid - идентификатор беспроводной сети (название точки доступа);
+    <ldiv>
+      <marker>●</marker>
+    </ldiv>
+    <location value="282"/>
+    <location value="396"/>
+    <location value="396"/>
+    <location value="408"/>
+    password - пароль.
+  </list>
+  <text>
+    <location value="50"/>
+    <location value="439"/>
+    <location value="479"/>
+    <location value="467"/>
+    В случае необходимости использования статической адресации, снимите галочку DHCP и заполните: IP, Mask, Gateway, DNS main, DNS Backup.
+  </text>
+  <page_footer>
+    <layer value="furniture"/>
+    <location value="26"/>
+    <location value="485"/>
+    <location value="158"/>
+    <location value="494"/>
+<![CDATA[PROPRIETARY  &  CONFIDENTIAL]]>  </page_footer>
+  <page_footer>
+    <layer value="furniture"/>
+    <location value="479"/>
+    <location value="482"/>
+    <location value="491"/>
+    <location value="493"/>
+    36
+  </page_footer>
+  <page_break/>
+  <page_header>
+    <layer value="furniture"/>
+    <location value="446"/>
+    <location value="7"/>
+    <location value="500"/>
+    <location value="31"/>
+    МЕНЮ ТЕРМИНАЛА
+  </page_header>
+  <heading level="2">
+    <location value="29"/>
+    <location value="43"/>
+    <location value="367"/>
+    <location value="68"/>
+    Настройка канала связи. Ethernet
+  </heading>
+  <picture>
+    <location value="47"/>
+    <location value="117"/>
+    <location value="167"/>
+    <location value="318"/>
+    <caption>
+      <location value="49"/>
+      <location value="331"/>
+      <location value="194"/>
+      <location value="359"/>
+      динамический IP-адрес -установить галочку напротив
+    </caption>
+    <src uri="assets/image_000076_2c7f173c2e025e55c3f053cc69589409a33522d21571cbd4d1651ec4d00ced90.png"/>
+  </picture>
+  <text>
+    <location value="49"/>
+    <location value="363"/>
+    <location value="111"/>
+    <location value="375"/>
+    пункта DHCP
+  </text>
+  <picture>
+    <location value="273"/>
+    <location value="117"/>
+    <location value="393"/>
+    <location value="318"/>
+    <src uri="assets/image_000077_d27015ecd25ccbb203bc40b3c96532e053dde6b885779e0c7b96df3498566233.png"/>
+  </picture>
+  <text>
+    <location value="273"/>
+    <location value="331"/>
+    <location value="474"/>
+    <location value="375"/>
+    статический IP-адрес - убрать галочку напротив пункта DHCP и вручную ввести соответствующие параметры:
+  </text>
+  <list>
+    <ldiv>
+      <marker>●</marker>
+    </ldiv>
+    <location value="273"/>
+    <location value="379"/>
+    <location value="345"/>
+    <location value="391"/>
+    ip - ip-адрес;
+    <ldiv>
+      <marker>●</marker>
+    </ldiv>
+    <location value="273"/>
+    <location value="395"/>
+    <location value="488"/>
+    <location value="423"/>
+    mask - маска для определения по IP-адресу адреса подсети и адреса узла;
+    <ldiv>
+      <marker>●</marker>
+    </ldiv>
+    <location value="273"/>
+    <location value="427"/>
+    <location value="360"/>
+    <location value="439"/>
+    gateway - шлюз;
+    <ldiv>
+      <marker>●</marker>
+    </ldiv>
+    <location value="273"/>
+    <location value="443"/>
+    <location value="487"/>
+    <location value="455"/>
+    dns main - IP-адрес основного DNS-сервера;
+    <ldiv>
+      <marker>●</marker>
+    </ldiv>
+    <location value="273"/>
+    <location value="459"/>
+    <location value="464"/>
+    <location value="487"/>
+    dns backup - IP-адрес резервного DNSсервера
+  </list>
+  <page_footer>
+    <layer value="furniture"/>
+    <location value="32"/>
+    <location value="481"/>
+    <location value="164"/>
+    <location value="490"/>
+<![CDATA[PROPRIETARY  &  CONFIDENTIAL]]>  </page_footer>
+  <page_footer>
+    <layer value="furniture"/>
+    <location value="478"/>
+    <location value="479"/>
+    <location value="489"/>
+    <location value="491"/>
+    37
+  </page_footer>
+  <page_break/>
+  <page_header>
+    <layer value="furniture"/>
+    <location value="446"/>
+    <location value="7"/>
+    <location value="500"/>
+    <location value="31"/>
+    МЕНЮ ТЕРМИНАЛА
+  </page_header>
+  <heading level="2">
+    <location value="29"/>
+    <location value="43"/>
+    <location value="199"/>
+    <location value="68"/>
+    Меню оператора
+  </heading>
+  <picture>
+    <location value="29"/>
+    <location value="123"/>
+    <location value="412"/>
+    <location value="431"/>
+    <src uri="assets/image_000078_905b4cbf6d1e11a0ee8639fb59f4eebc569d8d415ab7b43d4c1d76254de4cdb3.png"/>
+    <text>
+      <location value="227"/>
+      <location value="201"/>
+      <location value="254"/>
+      <location value="212"/>
+      меню
+    </text>
+    <text>
+      <location value="254"/>
+      <location value="201"/>
+      <location value="319"/>
+      <location value="212"/>
+      с информацией
+    </text>
+    <text>
+      <location value="319"/>
+      <location value="201"/>
+      <location value="378"/>
+      <location value="212"/>
+      о терминале
+    </text>
+    <text>
+      <location value="227"/>
+      <location value="221"/>
+      <location value="373"/>
+      <location value="232"/>
+      настройки банковских параметров
+    </text>
+    <heading level="2">
+      <location value="228"/>
+      <location value="157"/>
+      <location value="314"/>
+      <location value="167"/>
+      ГЛАВНОЕ МЕНЮ / …
+    </heading>
+    <text>
+      <location value="226"/>
+      <location value="241"/>
+      <location value="354"/>
+      <location value="251"/>
+      изменение языковых настроек
+    </text>
+  </picture>
+  <picture>
+    <location value="333"/>
+    <location value="31"/>
+    <location value="417"/>
+    <location value="143"/>
+    <src uri="assets/image_000079_06f34a4743ddc626cf57deaea456ce2e8bafb4d898f8f65d54028f8ba36cf24f.png"/>
+  </picture>
+  <page_footer>
+    <layer value="furniture"/>
+    <location value="26"/>
+    <location value="482"/>
+    <location value="158"/>
+    <location value="492"/>
+<![CDATA[PROPRIETARY  &  CONFIDENTIAL]]>  </page_footer>
+  <page_footer>
+    <layer value="furniture"/>
+    <location value="483"/>
+    <location value="480"/>
+    <location value="492"/>
+    <location value="490"/>
+    38
+  </page_footer>
+  <page_break/>
+  <page_header>
+    <layer value="furniture"/>
+    <location value="446"/>
+    <location value="7"/>
+    <location value="500"/>
+    <location value="31"/>
+    МЕНЮ ТЕРМИНАЛА
+  </page_header>
+  <heading level="2">
+    <location value="30"/>
+    <location value="43"/>
+    <location value="206"/>
+    <location value="68"/>
+    Меню оператора
+  </heading>
+  <picture>
+    <location value="30"/>
+    <location value="124"/>
+    <location value="484"/>
+    <location value="435"/>
+    <src uri="assets/image_000080_a875e346c5bb913f4800d5f026df9eecbd729fa16d7b8464f8495d3a4cdee3bf.png"/>
+    <heading level="2">
+      <location value="226"/>
+      <location value="157"/>
+      <location value="345"/>
+      <location value="168"/>
+      … / МЕНЮ «О ТЕРМИНАЛЕ»
+    </heading>
+    <text>
+      <location value="227"/>
+      <location value="191"/>
+      <location value="380"/>
+      <location value="202"/>
+      полный серийный номер терминала
+    </text>
+    <text>
+      <location value="228"/>
+      <location value="219"/>
+      <location value="311"/>
+      <location value="229"/>
+      текущая версия ПО
+    </text>
+    <text>
+      <location value="227"/>
+      <location value="256"/>
+      <location value="390"/>
+      <location value="267"/>
+      банковский идентификатор терминала
+    </text>
+    <text>
+      <location value="227"/>
+      <location value="285"/>
+      <location value="465"/>
+      <location value="295"/>
+      текущий канал, по которому терминал выходит на связь
+    </text>
+    <list>
+      <ldiv>
+        <marker>•</marker>
+      </ldiv>
+      <location value="228"/>
+      <location value="301"/>
+      <location value="324"/>
+      <location value="312"/>
+      wifi - связь по Wi-fi
+    </list>
+    <list>
+      <ldiv>
+        <marker>•</marker>
+      </ldiv>
+      <location value="228"/>
+      <location value="315"/>
+      <location value="334"/>
+      <location value="325"/>
+      eth - связь по Ethernet
+    </list>
+    <list>
+      <ldiv>
+        <marker>•</marker>
+      </ldiv>
+      <location value="229"/>
+      <location value="328"/>
+      <location value="323"/>
+      <location value="339"/>
+      sim - связь по GSM
+    </list>
+    <text>
+      <location value="227"/>
+      <location value="349"/>
+      <location value="439"/>
+      <location value="359"/>
+      проверка интернет-соединения и параметров сети
+    </text>
+    <text>
+      <location value="228"/>
+      <location value="370"/>
+      <location value="485"/>
+      <location value="422"/>
+      дополнительная информация о состоянии терминала: онлайн, эквайринг, эквайер, дата и время последней сверки, дата и время последней транзакции, VM - статус обмен с автоматом)
+    </text>
+  </picture>
+  <page_footer>
+    <layer value="furniture"/>
+    <location value="27"/>
+    <location value="482"/>
+    <location value="159"/>
+    <location value="492"/>
+<![CDATA[PROPRIETARY  &  CONFIDENTIAL]]>  </page_footer>
+  <page_footer>
+    <layer value="furniture"/>
+    <location value="483"/>
+    <location value="480"/>
+    <location value="492"/>
+    <location value="490"/>
+    39
+  </page_footer>
+  <page_break/>
+  <page_header>
+    <layer value="furniture"/>
+    <location value="436"/>
+    <location value="6"/>
+    <location value="507"/>
+    <location value="30"/>
+    СОВЕТЫ И РЕКОМЕНДАЦИИ
+  </page_header>
+  <heading level="2">
+    <location value="29"/>
+    <location value="43"/>
+    <location value="275"/>
+    <location value="68"/>
+    Советы и рекомендации
+  </heading>
+  <text>
+    <location value="470"/>
+    <location value="48"/>
+    <location value="507"/>
+    <location value="59"/>
+    СОВЕТЫ
+  </text>
+  <text>
+    <location value="442"/>
+    <location value="64"/>
+    <location value="507"/>
+    <location value="75"/>
+    РЕКОМЕНДАЦИ
+  </text>
+  <list>
+    <ldiv>
+      <marker>●</marker>
+    </ldiv>
+    <location value="58"/>
+    <location value="100"/>
+    <location value="446"/>
+    <location value="167"/>
+    Если терминал дольше минуты не загружается дальше стартового экрана с информацией об этапах запуска и при этом в нижней части экрана отображается сообщение «Установка соединения», значит на терминале слабый уровень сигнала/отсутствует доступ в интернет.
+    <ldiv>
+      <marker>●</marker>
+    </ldiv>
+    <location value="58"/>
+    <location value="183"/>
+    <location value="449"/>
+    <location value="231"/>
+    После полной загрузки терминала подождите 30-45 секунд перед запуском тестовой транзакции: иногда требуется некоторое время для регистрации в новой мобильной сети (если терминал настроен на работу по sim-карте).
+    <ldiv>
+      <marker>●</marker>
+    </ldiv>
+    <location value="58"/>
+    <location value="247"/>
+    <location value="458"/>
+    <location value="278"/>
+    Тестовая транзакция может занимать до 60 секунд в зависимости от качества соединения/сигнала мобильной сети.
+    <ldiv>
+      <marker>●</marker>
+    </ldiv>
+    <location value="58"/>
+    <location value="293"/>
+    <location value="443"/>
+    <location value="342"/>
+    Вы можете определить качество связи по времени проведения тестовой транзакции: меньше 15 секунд - хорошее; 15-40 секунд - среднее; более 40 секунд - плохое/подключение отсутствует.
+    <ldiv>
+      <marker>●</marker>
+    </ldiv>
+    <location value="58"/>
+    <location value="358"/>
+    <location value="462"/>
+    <location value="406"/>
+    Вы можете проводить тестовые транзакции столько раз, сколько необходимо это не влияет на сумму продаж и не модифицирует денежные счётчики автомата.
+  </list>
+  <page_footer>
+    <layer value="furniture"/>
+    <location value="26"/>
+    <location value="482"/>
+    <location value="158"/>
+    <location value="492"/>
+<![CDATA[PROPRIETARY  &  CONFIDENTIAL]]>  </page_footer>
+  <page_footer>
+    <layer value="furniture"/>
+    <location value="477"/>
+    <location value="479"/>
+    <location value="490"/>
+    <location value="491"/>
+    40
+  </page_footer>
+  <page_break/>
+  <page_header>
+    <layer value="furniture"/>
+    <location value="436"/>
+    <location value="6"/>
+    <location value="507"/>
+    <location value="30"/>
+    СОВЕТЫ И РЕКОМЕНДАЦИИ
+  </page_header>
+  <heading level="2">
+    <location value="29"/>
+    <location value="18"/>
+    <location value="355"/>
+    <location value="68"/>
+    Подключение внешней антенны Vendotek VN
+  </heading>
+  <text>
+    <location value="51"/>
+    <location value="95"/>
+    <location value="393"/>
+    <location value="107"/>
+    При слабом уровне GSM сигнала, воспользуйтесь внешней антенной.
+  </text>
+  <text>
+    <location value="51"/>
+    <location value="128"/>
+    <location value="479"/>
+    <location value="159"/>
+    Приобрести внешнюю антенну и переходник вы можете в ТТ или специализированном магазине.
+  </text>
+  <text>
+    <location value="51"/>
+    <location value="174"/>
+    <location value="324"/>
+    <location value="186"/>
+    Параметры антенны: Диапазон работы 4G, разъём SMA.
+  </text>
+  <text>
+    <location value="51"/>
+    <location value="190"/>
+    <location value="471"/>
+    <location value="202"/>
+    Параметры переходника: U.FL (разъем на терминале) - SMA-female (разъём антенны)
+  </text>
+  <list class="ordered">
+    <ldiv>
+      <marker>1.</marker>
+    </ldiv>
+    <location value="54"/>
+    <location value="239"/>
+    <location value="211"/>
+    <location value="251"/>
+    Отключите питание автомата.
+    <ldiv>
+      <marker>2.</marker>
+    </ldiv>
+    <location value="54"/>
+    <location value="272"/>
+    <location value="417"/>
+    <location value="308"/>
+    АККУРАТНО отсоедините встроенную антенну, потянув РАЗЪЁМ на себя. Не тяните ЗА ПРОВОД.
+  </list>
+  <picture>
+    <location value="197"/>
+    <location value="326"/>
+    <location value="327"/>
+    <location value="459"/>
+    <src uri="assets/image_000081_7b1419cccaab15cbef1327112ed6a8f91ecdaae09a9c921d87a74566c49ef822.png"/>
+  </picture>
+  <picture>
+    <location value="331"/>
+    <location value="327"/>
+    <location value="464"/>
+    <location value="459"/>
+    <src uri="assets/image_000082_4fc3fb423cf00e26ec43b1b402054f76826a9ae328499768101878e12d732dec.png"/>
+  </picture>
+  <picture>
+    <location value="26"/>
+    <location value="267"/>
+    <location value="45"/>
+    <location value="291"/>
+    <src uri="assets/image_000083_084a8c33636bb823375d0785468450c64bfa9d78c36972f2852b588bff13a472.png"/>
+  </picture>
+  <page_footer>
+    <layer value="furniture"/>
+    <location value="22"/>
+    <location value="480"/>
+    <location value="155"/>
+    <location value="489"/>
+<![CDATA[PROPRIETARY  &  CONFIDENTIAL]]>  </page_footer>
+  <page_footer>
+    <layer value="furniture"/>
+    <location value="479"/>
+    <location value="479"/>
+    <location value="489"/>
+    <location value="491"/>
+    41
+  </page_footer>
+  <page_break/>
+  <page_header>
+    <layer value="furniture"/>
+    <location value="436"/>
+    <location value="6"/>
+    <location value="507"/>
+    <location value="30"/>
+    СОВЕТЫ И РЕКОМЕНДАЦИИ
+  </page_header>
+  <heading level="2">
+    <location value="29"/>
+    <location value="18"/>
+    <location value="355"/>
+    <location value="68"/>
+    Подключение внешней антенны Vendotek VN
+  </heading>
+  <picture>
+    <location value="53"/>
+    <location value="100"/>
+    <location value="110"/>
+    <location value="223"/>
+    <src uri="assets/image_000084_c5e2e904af17c56d6a5e2cbc185a899874155e919faa808ff93c2fe7e4977e71.png"/>
+  </picture>
+  <picture>
+    <location value="175"/>
+    <location value="211"/>
+    <location value="203"/>
+    <location value="226"/>
+    <src uri="assets/image_000085_95e218f9e6178d12abaab2c16b9e4c6946e2749e3e16ef38b39e81aed8b53bab.png"/>
+  </picture>
+  <picture>
+    <location value="51"/>
+    <location value="251"/>
+    <location value="188"/>
+    <location value="402"/>
+    <src uri="assets/image_000086_d8d79b7f2c2f44e6166eadb2e1e068a3a3341ce1e318bcf0259dd5bcbf6bd8b3.png"/>
+  </picture>
+  <list class="ordered">
+    <ldiv>
+      <marker>3.</marker>
+    </ldiv>
+    <location value="214"/>
+    <location value="105"/>
+    <location value="459"/>
+    <location value="136"/>
+    АККУРАТНО подсоедините разъём переходника внешней антенны до щелчка.
+  </list>
+  <text>
+    <location value="214"/>
+    <location value="142"/>
+    <location value="459"/>
+    <location value="173"/>
+    НЕ ПРИЛАГАЙТЕ чрезмерных усилий - это может привести к повреждению разъёма терминала.
+  </text>
+  <list class="ordered">
+    <ldiv>
+      <marker>4.</marker>
+    </ldiv>
+    <location value="214"/>
+    <location value="188"/>
+    <location value="477"/>
+    <location value="237"/>
+    Подсоедините внешнюю антенну, зафиксировав её кабель на переходнике при помощи гайки. Следите, чтобы провод переходника НЕ ПЕРЕКРУЧИВАЛСЯ.
+    <ldiv>
+      <marker>5.</marker>
+    </ldiv>
+    <location value="214"/>
+    <location value="253"/>
+    <location value="316"/>
+    <location value="265"/>
+    Включите автомат.
+    <ldiv>
+      <marker>6.</marker>
+    </ldiv>
+    <location value="214"/>
+    <location value="280"/>
+    <location value="471"/>
+    <location value="311"/>
+    Проверьте параметры сети в меню оператора или меню техника в разделе «О терминале».
+    <ldiv>
+      <marker>7.</marker>
+    </ldiv>
+    <location value="215"/>
+    <location value="327"/>
+    <location value="467"/>
+    <location value="357"/>
+    При слабом уровне сигнала попробуйте выбрать другого оператора связи (Билайн/МТС/…).
+  </list>
+  <page_footer>
+    <layer value="furniture"/>
+    <location value="26"/>
+    <location value="482"/>
+    <location value="158"/>
+    <location value="492"/>
+<![CDATA[PROPRIETARY  &  CONFIDENTIAL]]>  </page_footer>
+  <page_footer>
+    <layer value="furniture"/>
+    <location value="477"/>
+    <location value="479"/>
+    <location value="490"/>
+    <location value="491"/>
+    42
+  </page_footer>
+  <page_break/>
+  <page_header>
+    <layer value="furniture"/>
+    <location value="436"/>
+    <location value="6"/>
+    <location value="507"/>
+    <location value="30"/>
+    СОВЕТЫ И РЕКОМЕНДАЦИИ
+  </page_header>
+  <heading level="2">
+    <location value="30"/>
+    <location value="43"/>
+    <location value="359"/>
+    <location value="68"/>
+    Сопутствующие комплектующие
+  </heading>
+  <table>
+    <location value="46"/>
+    <location value="94"/>
+    <location value="459"/>
+    <location value="392"/>
+    <ched/>
+    Артикул
+    <ched/>
+    Наименование
+    <ched/>
+    Фото
+    <nl/>
+    <srow/>
+    Vendotek VN
+    <lcel/>
+    <lcel/>
+    <nl/>
+    <fcel/>
+    TERMT 051.034.008
+    <fcel/>
+    кабель Ethernet
+    <ecel/>
+    <nl/>
+    <fcel/>
+    TERMT 051.034.0044
+    <fcel/>
+    кабель RS-232
+    <ecel/>
+    <nl/>
+    <fcel/>
+    TERMT 051.034.005
+    <fcel/>
+    кабель питания
+    <ecel/>
+    <nl/>
+  </table>
+  <picture>
+    <location value="370"/>
+    <location value="173"/>
+    <location value="425"/>
+    <location value="227"/>
+    <src uri="assets/image_000087_e3de06067e3eabf65f35dd06861f78184b886b46d5db2ed506647b1b73f6b5de.png"/>
+  </picture>
+  <picture>
+    <location value="360"/>
+    <location value="242"/>
+    <location value="429"/>
+    <location value="313"/>
+    <src uri="assets/image_000088_b2d18820dac6824f2f767b74c5ecdc6e880af295efc94919ef8a874ae6272cd2.png"/>
+  </picture>
+  <picture>
+    <location value="370"/>
+    <location value="319"/>
+    <location value="431"/>
+    <location value="383"/>
+    <src uri="assets/image_000089_1ec0f8497fd1d5fc536304c2b1ff87d3b5e8a589f21c25ddc61b2c5942de8ef6.png"/>
+  </picture>
+  <page_footer>
+    <layer value="furniture"/>
+    <location value="26"/>
+    <location value="482"/>
+    <location value="158"/>
+    <location value="492"/>
+<![CDATA[PROPRIETARY  &  CONFIDENTIAL]]>  </page_footer>
+  <page_footer>
+    <layer value="furniture"/>
+    <location value="478"/>
+    <location value="479"/>
+    <location value="490"/>
+    <location value="491"/>
+    43
+  </page_footer>
+  <page_break/>
+  <page_header>
+    <layer value="furniture"/>
+    <location value="436"/>
+    <location value="6"/>
+    <location value="507"/>
+    <location value="30"/>
+    СОВЕТЫ И РЕКОМЕНДАЦИИ
+  </page_header>
+  <heading level="2">
+    <location value="30"/>
+    <location value="43"/>
+    <location value="359"/>
+    <location value="68"/>
+    Сопутствующие комплектующие
+  </heading>
+  <table>
+    <location value="47"/>
+    <location value="93"/>
+    <location value="459"/>
+    <location value="392"/>
+    <ched/>
+    Артикул
+    <ched/>
+    Наименование
+    <ched/>
+    Фото
+    <nl/>
+    <srow/>
+    Vendotek VL
+    <lcel/>
+    <lcel/>
+    <nl/>
+    <fcel/>
+    TERMT 007.030.0017
+    <fcel/>
+    кабель Ethernet
+    <ecel/>
+    <nl/>
+    <fcel/>
+    TERMT 007.030.0021
+    <fcel/>
+    кабель RS-232
+    <ecel/>
+    <nl/>
+    <fcel/>
+    TERMT 007.030.0027
+    <fcel/>
+    кабель питания
+    <ecel/>
+    <nl/>
+  </table>
+  <picture>
+    <location value="362"/>
+    <location value="163"/>
+    <location value="438"/>
+    <location value="225"/>
+    <src uri="assets/image_000090_6257f98a642f612d927f445b548e7654a154f7ba540c1c4e45ddc64adf79a7ca.png"/>
+  </picture>
+  <picture>
+    <location value="365"/>
+    <location value="248"/>
+    <location value="430"/>
+    <location value="299"/>
+    <src uri="assets/image_000091_20ac42f967bb8a49d2d99e8ca53e457364f1d64b2eb4ba5a79c6268a202a1173.png"/>
+  </picture>
+  <picture>
+    <location value="367"/>
+    <location value="336"/>
+    <location value="442"/>
+    <location value="353"/>
+    <src uri="assets/image_000092_5a4a99c462034d5961cfc6b901f5b70c758e7141b0e83835a56623e04cbcdd6a.png"/>
+  </picture>
+  <page_footer>
+    <layer value="furniture"/>
+    <location value="26"/>
+    <location value="482"/>
+    <location value="158"/>
+    <location value="492"/>
+<![CDATA[PROPRIETARY  &  CONFIDENTIAL]]>  </page_footer>
+  <page_footer>
+    <layer value="furniture"/>
+    <location value="477"/>
+    <location value="479"/>
+    <location value="490"/>
+    <location value="491"/>
+    44
+  </page_footer>
+  <page_break/>
+  <page_header>
+    <layer value="furniture"/>
+    <location value="436"/>
+    <location value="6"/>
+    <location value="507"/>
+    <location value="30"/>
+    СОВЕТЫ И РЕКОМЕНДАЦИИ
+  </page_header>
+  <heading level="2">
+    <location value="29"/>
+    <location value="43"/>
+    <location value="270"/>
+    <location value="68"/>
+    Техническая поддержка
+  </heading>
+  <heading level="2">
+    <location value="61"/>
+    <location value="107"/>
+    <location value="376"/>
+    <location value="135"/>
+    Заявки в службу технической поддержки Vendotek принимаются в электронном виде.
+  </heading>
+  <picture>
+    <location value="70"/>
+    <location value="147"/>
+    <location value="80"/>
+    <location value="159"/>
+    <src uri="assets/image_000093_19bda96788ef48a95bd02c51d8aca64278716f1b8fd7fb4bbaa99ae03039c938.png"/>
+  </picture>
+  <picture>
+    <location value="69"/>
+    <location value="187"/>
+    <location value="80"/>
+    <location value="197"/>
+    <src uri="assets/image_000094_0e68641cbc58c2f08eda37f4d8557dac01ac82165ae3ec5b24749f2c400edffb.png"/>
+  </picture>
+  <picture>
+    <location value="70"/>
+    <location value="219"/>
+    <location value="81"/>
+    <location value="236"/>
+    <src uri="assets/image_000095_14f36c7ba247a9705bb78466cbf6dee1b85e0ad20f9a05f484423f17cf5b7b9f.png"/>
+  </picture>
+  <picture>
+    <location value="68"/>
+    <location value="256"/>
+    <location value="81"/>
+    <location value="274"/>
+    <src uri="assets/image_000096_6034b359ae451f5716681f43e6d78da50c3639412a9d59fb77717c47f6a2aef6.png"/>
+  </picture>
+  <heading level="2">
+    <location value="65"/>
+    <location value="300"/>
+    <location value="151"/>
+    <location value="313"/>
+    В заявке укажите:
+  </heading>
+  <list>
+    <ldiv>
+      <marker>●</marker>
+    </ldiv>
+    <location value="72"/>
+    <location value="328"/>
+    <location value="304"/>
+    <location value="340"/>
+    12-ти значный серийный номер терминала;
+    <ldiv>
+      <marker>●</marker>
+    </ldiv>
+    <location value="72"/>
+    <location value="347"/>
+    <location value="394"/>
+    <location value="359"/>
+    опишите проблему и по возможности приложите фото/видео;
+    <ldiv>
+      <marker>●</marker>
+    </ldiv>
+    <location value="72"/>
+    <location value="365"/>
+    <location value="382"/>
+    <location value="395"/>
+    выгрузите логи с терминала через меню техника или меню оператора.
+  </list>
+  <picture>
+    <location value="73"/>
+    <location value="418"/>
+    <location value="99"/>
+    <location value="447"/>
+    <src uri="assets/image_000097_487f3de95b91da26e0ed64c7fb3a326c40f63b9a4c2a0ccb8cfc005c86123e4f.png"/>
+  </picture>
+  <picture>
+    <location value="111"/>
+    <location value="439"/>
+    <location value="118"/>
+    <location value="449"/>
+    <src uri="assets/image_000098_7267c107ea686d072034755f424e02c5b7336386c482230a49091805004f8113.png"/>
+  </picture>
+  <picture>
+    <location value="196"/>
+    <location value="440"/>
+    <location value="203"/>
+    <location value="449"/>
+    <src uri="assets/image_000099_6fd33f6dcbaef8072d623e100c16a5b5c5c83b1cb464d0bcbdecf8ff21dd52b2.png"/>
+  </picture>
+  <picture>
+    <location value="303"/>
+    <location value="411"/>
+    <location value="337"/>
+    <location value="455"/>
+    <src uri="assets/image_000100_b44e3071ad76824728ce226219fcc783bd32ea6a73d0f218bb48f935874fc550.png"/>
+  </picture>
+  <picture>
+    <location value="342"/>
+    <location value="151"/>
+    <location value="430"/>
+    <location value="262"/>
+    <src uri="assets/image_000101_971c538669ed7336c7e01fca2bb8ac994132f2575c1565a535996e4b2a3b595f.png"/>
+  </picture>
+  <picture>
+    <location value="31"/>
+    <location value="201"/>
+    <location value="47"/>
+    <location value="224"/>
+    <src uri="assets/image_000102_5e5970e4117ad53b59cdd907072aecc35ce2fa3ee48da1ef0ac5e3bcdabd26ea.png"/>
+  </picture>
+  <page_footer>
+    <layer value="furniture"/>
+    <location value="26"/>
+    <location value="482"/>
+    <location value="158"/>
+    <location value="492"/>
+<![CDATA[PROPRIETARY  &  CONFIDENTIAL PROPRIETARY  &  CONFIDENTIAL]]>  </page_footer>
+  <page_footer>
+    <layer value="furniture"/>
+    <location value="477"/>
+    <location value="479"/>
+    <location value="490"/>
+    <location value="491"/>
+    45 45
+  </page_footer>
+  <page_break/>
+  <heading level="2">
+    <location value="89"/>
+    <location value="167"/>
+    <location value="423"/>
+    <location value="236"/>
+    Спасибо за выбор нашего терминала!
+  </heading>
+  <picture>
+    <location value="344"/>
+    <location value="378"/>
+    <location value="465"/>
+    <location value="448"/>
+    <src uri="assets/image_000103_be0ce55cff88550e654c02370cf5440a9df06628f61f2d924ba51fc079ba0f0b.png"/>
+  </picture>
+  <page_break/>
+  <heading level="2">
+    <location value="49"/>
+    <location value="24"/>
+    <location value="477"/>
+    <location value="49"/>
+    Приложение 1. Чертеж посадочного места
+  </heading>
+  <picture>
+    <location value="0"/>
+    <location value="70"/>
+    <location value="301"/>
+    <location value="442"/>
+    <src uri="assets/image_000104_6e0e70d018ddd9febc4e76fc57d6d2ccfde9ba357e06c39b57c30319aad1a120.png"/>
+  </picture>
+  <picture>
+    <location value="361"/>
+    <location value="106"/>
+    <location value="511"/>
+    <location value="212"/>
+    <src uri="assets/image_000105_d19efdabe1a7409136886479cfc9a37b8128a2b763869dd4f463554a9180a956.png"/>
+  </picture>
+</doclang>
